@@ -1,3 +1,189 @@
 @function imgUrl($file, $path: "background") {
     @return url("../images/" + $path + "/" + $file) no-repeat;
 }
+
+// .cta {
+//     width: 50px;
+//     height: 50px;
+//     border-radius: 50px;
+//     border: 2px solid red;
+//     background-color: red;
+//     color: #fff;
+//     transition: width 0.7s;
+
+//     .cross {
+//         opacity: 1;
+//         transition: opacity 0.5s;
+//     }
+
+//     .button-text {
+//         opacity: 0;
+//         transition: opacity 0.5s;
+//         position: absolute;
+//         width: 100%;
+//         left: 0;
+//         color: $white;
+//     }
+
+//     &:hover {
+//         width: 180px;
+//         transition: width 0.7s;
+
+//         .button-text {
+//             opacity: 1;
+//             transition: opacity 0.5s;
+//         }
+
+//         .cross {
+//             opacity: 0;
+//             transition: opacity 0.5s;
+//         }
+//     }
+// }
+
+header {
+    .header-top-bar {
+        padding: 61px 0 29px;
+
+        .btn {
+            height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cross-btn-wrapper {
+            width: 90px;
+
+            .cross-btn {
+                background-color: $primary;
+                height: 90px;
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                border-radius: 90px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                color: $white;
+                text-decoration: none;
+                transition: 0.5s all ease;
+                
+                .text {
+                    display: block;
+                    transform: scaleX(1);
+                    transition: 0.5s all ease;
+                    font-size: 1.781875rem; // 28.51px
+                }
+    
+                .icon {
+                    display: none;
+                    transform: scaleX(0);
+                    transition: 0.5s all ease;
+                }
+    
+                &.active {
+                    width: 90px;
+                    transition: 0.5s all ease;
+                    
+                    .text {
+                        display: none;
+                        transform: scaleX(0);
+                        transition: 0.5s all ease;
+                    }
+    
+                    .icon {
+                        display: block;
+                        transform: scaleX(1);
+                        transition: 0.5s all ease;
+                    }
+                }
+            }
+        }
+    }
+
+    .banner {
+        padding: 71px 0;
+        background: imgUrl("lines.png") center top;
+        background-size: cover;
+
+        .hero-heading {
+            font-weight: 900;
+            font-size: 5.54875rem; // 88.78px
+            line-height: 1.46;
+
+            @include media-breakpoint-down(xxl) {
+                font-size: 4.7rem;
+            }
+
+            @include media-breakpoint-down(lg) {
+                font-size: 3.5rem;
+            }
+
+            @include media-breakpoint-down(sm) {
+                font-size: 3rem;
+            }
+        }
+
+        .sub-heading {
+            padding-top: 53px;
+            font-size: 3rem;
+            font-weight: 600;
+            line-height: 1.69;
+        }
+
+        .banner-button-wrapper {
+            max-width: 363px;
+            padding-top: 46px;
+
+            .banner-button {
+                font-size: 1.5rem;
+                color: $white;
+                font-weight: 700;
+                padding: 8px 16px;
+                line-height: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 76px;
+                position: relative;
+
+                .slide-out {
+                    position: absolute;
+                    right: 0;
+                    color: $primary;
+                    opacity: 0;
+                    transition: 0.5s all;
+                    z-index: -1;
+                }
+
+                &:hover {
+                    .slide-out {
+                        right: -50%;
+                        transition: 0.5s all;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        .tank-animation-wrapper {
+            padding: 122px 0;
+
+            .tank-animation {
+                background: $secondary;
+                border-radius: 57px;
+                height: 480px;
+                position: relative;
+
+                .tank-img {
+                    position: absolute;
+                    bottom: 0;
+                    right: 2rem;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

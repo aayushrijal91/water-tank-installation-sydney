@@ -23,3 +23,7 @@ $('#return-to-top').on('click', () => {
         scrollTop: 0
     }, 500);
 });
+
+$(".cross-btn").on('click', function() {
+    $(this ).toggleClass('active');
+});

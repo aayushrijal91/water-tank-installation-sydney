@@ -1,7 +1,7 @@
 <?php
 include __DIR__ . './env.php';
 
-$site = "Website Name";
+$site = "Paul's Tank Warehouse";
 $phone_number = "0432 406 340";
 $admin_email = 'arijal@aiims.com.au';
 $bcc_email = "";

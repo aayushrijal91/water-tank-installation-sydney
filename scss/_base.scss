@@ -7,6 +7,7 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    background-color: $light;
 }
 
 .btn:focus {
@@ -36,6 +37,10 @@ body {
 
 .line-height-2 {
     line-height: 2;
+}
+
+.line-height-3 {
+    line-height: 1.65;
 }
 
 //Go To Top

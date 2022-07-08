@@ -1,7 +1,7 @@
 /* Font sizes */
 h1,
 .h1 {
-    font-size: 4.375rem; // 70px
+    font-size: 5.638125rem; // 90.21px
     margin-bottom: 0;
 
     @include media-breakpoint-down(md) {
@@ -9,41 +9,49 @@ h1,
     }
 
     @include media-breakpoint-down(sm) {
-        font-size: 2rem;
+        font-size: 4rem;
     }
 }
 
 h2,
 .h2 {
-    font-size: 3.4375rem; // 55px
+    font-size: 5.54875rem; // 88.78px
     margin-bottom: 0;
 
+    @include media-breakpoint-down(xxl) {
+        font-size: 4.7rem;
+    }
+
     @include media-breakpoint-down(lg) {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     @include media-breakpoint-down(sm) {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 }
 
 h3,
 .h3 {
-    font-size: 2.5rem; // 40px
+    font-size: 5rem; // 80px
     margin-bottom: 0;
 
-    @include media-breakpoint-down(md) {
-        font-size: 2rem;
+    @include media-breakpoint-down(xxl) {
+        font-size: 4.7rem;
+    }
+
+    @include media-breakpoint-down(xl) {
+        font-size: 4rem;
     }
 
     @include media-breakpoint-down(sm) {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 }
 
 h4,
 .h4 {
-    font-size: 2rem; // 32px
+    font-size: 4.965625rem; // 79.45px
     margin-bottom: 0;
 
     @include media-breakpoint-down(sm) {
@@ -53,36 +61,52 @@ h4,
 
 h5,
 .h5 {
-    font-size: 1.625rem; // 26px
+    font-size: 3.875rem; // 62px
     margin-bottom: 0;
 
+    @include media-breakpoint-down(xxl) {
+        font-size: 3.25rem;
+    }
+
+    @include media-breakpoint-down(xl) {
+        font-size: 3rem;
+    }
+
+    @include media-breakpoint-down(lg) {
+        font-size: 2rem;
+    }
+
     @include media-breakpoint-down(sm) {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 
 h6,
 .h6 {
-    font-size: 1.5625rem; // 25px
+    font-size: 3.5625rem; // 57px
     margin-bottom: 0;
 
     @include media-breakpoint-down(sm) {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 }
 
 h7,
 .h7 {
-    font-size: 1.5rem; // 24px
+    font-size: 3.37875rem; // 54.06px
     margin-bottom: 0;
 
+    @include media-breakpoint-down(xl) {
+        font-size: 3rem;
+    }
+
     @include media-breakpoint-down(sm) {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 }
 
 .h8 {
-    font-size: 1.4375rem; // 23px
+    font-size: 2.625rem; // 42px
 
     @include media-breakpoint-down(sm) {
         font-size: 1rem;
@@ -90,39 +114,207 @@ h7,
 }
 
 .h9 {
-    font-size: 1.375rem; // 22px
+    font-size: 2.44rem; // 39.04px
 
     @include media-breakpoint-down(sm) {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
 
 .h10 {
-    font-size: 1.25rem; // 20px
+    font-size: 2.27125rem; // 36.34px
 
     @include media-breakpoint-down(sm) {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
 
 .h11 {
-    font-size: 1.125rem; // 18px
+    font-size: 2.16rem; // 34.56px
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1.5rem;
+    }
+}
+
+.h12 {
+    font-size: 1.97625rem; // 31.62px
+
+    @include media-breakpoint-down(lg) {
+        font-size: 1.75rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1.5rem;
+    }
+}
+
+.h13 {
+    font-size: 1.875rem; // 30px
+
+    @include media-breakpoint-down(xxl) {
+        font-size: 1.5rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1.35rem;
+    }
+}
+
+.h14 {
+    font-size: 1.781875rem; // 28.51px
+
+    @include media-breakpoint-down(xxl) {
+        font-size: 1.5rem;
+    }
+
+    @include media-breakpoint-down(lg) {
+        font-size: 1rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.875rem;
+    }
+}
+
+.h15 {
+    font-size: 1.6875rem; // 27px
+
+    @include media-breakpoint-down(xxl) {
+        font-size: 1.25rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.875rem;
+    }
+}
+
+.h16 {
+    font-size: 1.625rem; // 26px
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1.5rem;
+    }
+}
+
+.h17 {
+    font-size: 1.5625rem; // 25px
 
     @include media-breakpoint-down(sm) {
         font-size: 1rem;
     }
 }
 
-.h12 {
-    font-size: 0.9375rem; // 15px
+.h18 {
+    font-size: 1.515625rem; // 24.25px
+
+    @include media-breakpoint-down(xl) {
+        font-size: 1.4rem;
+    }
+
+    @include media-breakpoint-down(md) {
+        font-size: 1.3rem;
+    }
 }
 
-$font-gilroy: "Gilroy", sans-serif;
+.h19 {
+    font-size: 1.5rem; // 24px
 
-$font-body: $font-gilroy;
+    @include media-breakpoint-down(sm) {
+        font-size: 1rem;
+    }
+}
+
+.h20 {
+    font-size: 1.465rem; // 23.44px
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1rem;
+    }
+}
+
+.h21 {
+    font-size: 1.3125rem; // 21px
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1rem;
+    }
+}
+
+.h22 {
+    font-size: 1.205625rem; // 19.29px
+
+    @include media-breakpoint-down(xxl) {
+        font-size: 1rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.875rem;
+    }
+}
+
+.h23 {
+    font-size: 1.15rem; // 18.4px
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.875rem;
+    }
+}
+
+.h24 {
+    font-size: 1.125rem; // 18px
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.875rem;
+    }
+}
+
+.h25 {
+    font-size: 1.0625rem; // 17px
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.875rem;
+    }
+}
+
+.h26 {
+    font-size: 1.03125rem; // 16.5px
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.875rem;
+    }
+}
+
+.h27 {
+    font-size: 0.9375rem; // 15px
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.875rem; // 14px
+    }
+}
+
+.h28 {
+    font-size: 0.875rem; // 14px
+}
+
+.h29 {
+    font-size: 0.8125rem; // 13px
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+$font-inter: "Inter", sans-serif;
+$font-articulat: "Articulat", sans-serif;
+$font-roboto: "Roboto", sans-serif;
+$font-proxima-nova: "Proxima Nova", sans-serif;
+
+$font-body: $font-inter;
 
 $font-families: (
-    "gilroy": "Gilroy",
+    "inter": "Inter",
+    "articulat": "Articulat",
+    "roboto": "Roboto",
+    "proxima-nova": "Proxima Nova",
 );
 
 @each $name, $font-family in $font-families {
@@ -146,16 +338,16 @@ $asset-path: "../webfonts/";
     }
 }
 
-@include font-face("Gilroy", "Gilroy-Thin", 100);
-@include font-face("Gilroy", "Gilroy-Ultralight", 200);
-@include font-face("Gilroy", "Gilroy-Light", 300);
-@include font-face("Gilroy", "Gilroy-Regular", 400);
-@include font-face("Gilroy", "Gilroy-Medium", 500);
-@include font-face("Gilroy", "Gilroy-Semibold", 600);
-@include font-face("Gilroy", "Gilroy-Bold", 700);
-@include font-face("Gilroy", "Gilroy-Extrabold", 800);
-@include font-face("Gilroy", "Gilroy-Black", 900);
-@include font-face("Gilroy", "Gilroy-Heavy", 901);
+@include font-face("Articulat", "ArticulatCF-Regular", 400);
+@include font-face("Articulat", "ArticulatCF-Medium", 600);
+@include font-face("Articulat", "ArticulatCF-DemiBold", 700);
+@include font-face("Articulat", "ArticulatCF-Bold", 800);
+@include font-face("Proxima Nova", "Proxima Nova Thin", 400);
+@include font-face("Proxima Nova", "Proxima Nova Alt Regular", 500);
+@include font-face("Proxima Nova", "Proxima Nova Alt Condensed Semibold", 600);
+@include font-face("Proxima Nova", "Proxima Nova Semibold", 700);
+@include font-face("Proxima Nova", "Proxima Nova Alt Bold", 800);
+@include font-face("Proxima Nova", "Proxima Nova Alt Black", 900);
 
 $font-weights: 300, 400, 500, 600, 700, 800, 900;
 
