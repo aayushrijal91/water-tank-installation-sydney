@@ -27,3 +27,13 @@ $('#return-to-top').on('click', () => {
 $(".cross-btn").on('click', function() {
     $(this ).toggleClass('active');
 });
+
+$(() => {
+    $(".services-slider").slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows: false,
+        autoplay: true,
+        variableWidth: true,
+    })
+})
