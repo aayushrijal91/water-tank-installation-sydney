@@ -213,7 +213,8 @@ section.services {
             }
 
             .active-text {
-                background: linear-gradient(90deg, $secondary 37.53%, $primary 102.6%);
+                background: imgUrl("active-eclipse.png") left top,
+                    linear-gradient(90deg, $secondary 37.53%, $primary 102.6%);
                 border-radius: 38.8414px;
                 display: none;
                 height: 602.26px;
@@ -236,6 +237,66 @@ section.services {
                     justify-content: center;
                 }
             }
+        }
+    }
+}
+
+section.products {
+    padding: 107px 0;
+
+    .product-card {
+        img {
+            width: 100%;
+        }
+
+        .info {
+            background-color: $dark;
+            min-height: 187px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            padding: 14px;
+            text-align: center;
+        }
+    }
+}
+
+section.about-us {
+    background: imgUrl("about.png") left bottom;
+    padding: 77px 0 70px;
+}
+
+section.solutions {
+    background: $dark;
+    padding: 151px 0 183px;
+
+    .solution-card {
+        img {
+            width: 100%;
+        }
+
+        .caption {
+            color: $white;
+            padding-top: 20px;
+        }
+    }
+}
+
+section.why-choose {
+    padding: 50px 0;
+    background: imgUrl("lines.png") center;
+
+    .part-1 {
+        padding: 150px 0;
+    }
+
+    .part-2 {
+        .questions-card {
+            background: $white;
+            padding: 20px 30px;
+            border: 1px solid rgba(19, 19, 22, 0.1);
+            border-radius: 2px;
+            margin: 20px 0;
         }
     }
 }
