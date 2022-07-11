@@ -301,6 +301,61 @@ section.why-choose {
     }
 }
 
+section.testimonials {
+    background: linear-gradient(rgba(0, 0, 0, 0) 0% 50%, $secondary 50% 100%);
+    padding: 87px 0 94px;
+
+    .testimonials-slider {
+        .slick-track {
+            display: flex;
+        }
+
+        .slick-slide {
+            height: inherit;
+        }
+
+        .testimonial-card {
+            background: $white;
+            border: 1.03898px solid #e2e2f1;
+            margin-left: 11px;
+            margin-right: 11px;
+
+            .userimg {
+                height: 40px;
+                width: 40px;
+                background: $grey;
+                border-radius: 50%;
+            }
+
+            .username {
+                font-size: 1.3125rem; // 21px
+                font-weight: 700;
+
+                @include media-breakpoint-down(sm) {
+                    font-size: 1rem;
+                }
+            }
+
+            hr {
+                height: 1.03898px;
+                background-color: $light-grey;
+            }
+
+            .main {
+                padding: 0 27px 32.21px;
+            }
+
+            &.spaced {
+                margin-bottom: 128px;
+            }
+
+            &.inverse-spaced {
+                margin-top: 128px;
+            }
+        }
+    }
+}
+
 section.faqs {
     background-color: $secondary;
     padding: 88px 0;

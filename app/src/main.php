@@ -348,6 +348,62 @@ include __DIR__ . '/header.php';
     </div>
 </section>
 
+<section class="testimonials">
+    <?php $testimonials = [
+        [
+            "username" => "Joshua A",
+            "remark" => "Tank installation",
+            "description" => "<p>The crew were on time, accurate and their attention to detail was strong. Wouldn’t hesitate to use Paul's Tank Warehouse again.</p><p>Definitely trustworthy and you’ll know the job will be done to the highest quality.</p>",
+        ],
+        [
+            "username" => "Andrew",
+            "remark" => "Excellent",
+            "description" => "<p>Dear Sir/Madam,</p><p>Paul's Tank Warehouse did a terrific job installing two watertanks. He was cordial and polite on arrival and throughout the day, and I would not hesitate to recommend to friends and family.</p>",
+        ],
+        [
+            "username" => "Rachel",
+            "remark" => "Rainwater harvester installed - Thanks Guys",
+            "description" => "<p>Paul finalised the installation of the new rain water tank system this morning. Clearly explained the duration of the work, professionally installed the system, and communicated with the team to follow up a few points to be followed up. Thanks!</p>",
+        ],
+        [
+            "username" => "Grant. R",
+            "remark" => "Rainwater tank systems, fully installed. Amazing!",
+            "description" => "<p>The Paul's Tank Warehouse Team was very professional and quick having it all sorted asap.</p><p>Their attitude was great and I'd recommend them for anyone wanting the job done quickly and professionally.</p>",
+        ],
+        [
+            "username" => "Richard",
+            "remark" => "Perfect installation job",
+            "description" => "<p>We wanted a Rainwater harvesting systems installed for off grid living and the guys did a perfect job was very polite under trying conditions thanks.</p>",
+        ],
+        [
+            "username" => "Rocco",
+            "remark" => "Perfect installation job",
+            "description" => "<p>We wanted a Rainwater harvesting systems installed for off grid living and the guys did a perfect job was very polite under trying conditions thanks.</p>",
+        ],
+    ]; ?>
+    <div class="testimonials-slider">
+        <?php foreach ($testimonials as $key => $testimonial) { ?>
+            <div class="testimonial-card<?= ($key % 2) ? " spaced" : " inverse-spaced" ?>">
+                <div class="row justify-content-center align-items-center gx-2 py-3">
+                    <div class="col-auto">
+                        <div class="userimg"></div>
+                    </div>
+                    <div class="col-auto username"><?= $testimonial["username"] ?></div>
+                </div>
+                <hr>
+                <div class="main">
+                    <div class="text-center text-italic text-grey fw-700 h28">User Score</div>
+                    <div class="d-flex w-100 justify-content-center py-3"><?= renderImg("stars.png", "icons") ?></div>
+                    <div class="text-center text-italic h17 fw-800 text-black py-4 px-3 line-height-1">“<?= $testimonial["remark"] ?>”</div>
+                    <div class="font-roboto h26 text-grey">
+                        <?= $testimonial["description"] ?>
+                    </div>
+                </div>
+            </div>
+        <?php } ?>
+    </div>
+</section>
+
 <section class="faqs">
     <div class="container">
         <div class="accordion-container">

@@ -35,6 +35,15 @@ $(() => {
         arrows: false,
         autoplay: true,
         variableWidth: true,
+    });
+
+    $(".testimonials-slider").slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        centerMode: true,
+        arrows: false,
+        centerPadding: "120px",
+        autoplay: true,
     })
 });
 
