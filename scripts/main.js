@@ -59,9 +59,14 @@ $(() => {
                 }
             },
             {
-                breakpoint: 900,
+                breakpoint: 1200,
                 settings: {
                     slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 900,
+                settings: {
                     centerPadding: "0px"
                 }
             },

@@ -33,7 +33,7 @@
 						</a>
 					</div>
 					<div class="col-auto">
-						<div class="row justify-content-center justify-content-lg-end no-gutters align-items-center position-relative gx-1 gx-md-3">
+						<div class="row justify-content-center justify-content-lg-end no-gutters align-items-center position-relative gx-1 gx-md-3 gx-lg-2 gx-xl-3">
 							<div class="col-auto">
 								<a href="tel:<?= $phone_number ?>" class="btn btn-block btn-dark rounded-pill text-white px-3 py-2 py-md-3 px-md-5 h14">
 									Call Us 24/7 <b><?= $phone_number ?></b>

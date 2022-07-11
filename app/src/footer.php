@@ -21,7 +21,7 @@
 	</div>
 	<div class="footer-bottom">
 		<div class="container">
-			<div class="row justify-content-center justify-content-lg-between align-items-center py-3 py-lg-4">
+			<div class="row justify-content-center justify-content-xl-between align-items-center py-3 py-lg-4">
 				<div class="col-auto">
 					<div class="row gx-0 gx-md-3 no-gutters justify-content-center">
 						<div class="col-auto text-center">Copyright <?= date('Y') ?></div>
@@ -35,7 +35,7 @@
 				<div class="col-auto py-4 py-lg-0">
 					<?= renderImg("payment-options.png", "icons") ?>
 				</div>
-				<div class="col-auto">
+				<div class="col-auto pt-lg-4 pt-xl-0">
 					<div class="row no-gutters justify-content-center justify-content-lg-end align-items-center">
 						<div class="col-auto"><u>Terms &amp; Conditions</u></div>
 						<div class="col-auto px-1 px-md-3 text-primary fw-800">|</div>

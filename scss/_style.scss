@@ -16,7 +16,7 @@ header {
             align-items: center;
             justify-content: center;
 
-            @include media-breakpoint-down(lg) {
+            @include media-breakpoint-down(xl) {
                 height: 70px;
             }
 
@@ -28,7 +28,7 @@ header {
         .cross-btn-wrapper {
             width: 90px;
 
-            @include media-breakpoint-down(lg) {
+            @include media-breakpoint-down(xl) {
                 width: 70px;
                 height: 70px;
             }
@@ -63,7 +63,7 @@ header {
                         font-size: 1.5rem;
                     }
                     
-                    @include media-breakpoint-down(lg) {
+                    @include media-breakpoint-down(xl) {
                         font-size: 1.125rem;
                     }
 
@@ -94,7 +94,7 @@ header {
                         transition: 0.5s all ease;
                     }
 
-                    @include media-breakpoint-down(lg) {
+                    @include media-breakpoint-down(xl) {
                         width: 70px;
                     }
 
@@ -103,7 +103,7 @@ header {
                     }
                 }
 
-                @include media-breakpoint-down(lg) {
+                @include media-breakpoint-down(xl) {
                     height: 70px;
                 }
 
@@ -386,7 +386,7 @@ section.about-us {
         padding-top: 64px;
     }
 
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(xl) {
         background: imgUrl("about.png") left bottom;
         padding: 77px 0 70px;
     }

@@ -8,7 +8,7 @@ include __DIR__ . '/header.php';
         <div class="row g-xl-0 justify-content-end">
             <div class="col-12 col-xxl-11">
                 <div class="row g-0">
-                    <div class="col-lg-4 pe-xxl-5 py-5 py-md-6">
+                    <div class="col-xl-4 pe-xxl-5 py-5 py-md-6">
                         <div class="h7 fw-800 line-height-4">Give fluoridated chlorinated water the flick &amp; <span class="text-secondary">turn rain into cash!</span></div>
                         <div class="h19 text-dark-grey line-height-3 pt-4 pb-2">Rainwater harvesting systems for your home, made easy.</div>
                         <a href="#form" class="btn btn-block text-secondary px-0 pt-4 pt-lg-5 h19 fw-700">
@@ -17,7 +17,7 @@ include __DIR__ . '/header.php';
                             </svg>
                         </a>
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-xl-8">
                         <div class="services-slider">
                             <div class="service-card">
                                 <div class="pre-text">
@@ -194,13 +194,13 @@ include __DIR__ . '/header.php';
         <div class="row justify-content-center">
             <div class="col-12 col-lg-11">
                 <div class="row g-2">
-                    <div class="col-lg-4 h5 fw-700">Who are we?</div>
-                    <div class="col-lg-8 fw-600 fw-600 h13 line-height-3">
+                    <div class="col-xl-4 h5 fw-700">Who are we?</div>
+                    <div class="col-xl-8 fw-600 fw-600 h13 line-height-3">
                         A family owned and operated business, Aussie Water Savers (AWS) is a leading manufacturer & supplier & installer of Rainwater Tanks in Sydney.
                     </div>
                 </div>
                 <div class="row justify-content-end pt-4 pt-md-5 pt-lg-6">
-                    <div class="col-lg-6">
+                    <div class="col-xl-6">
                         <p class="text-secondary fw-700 h18 pb-2 pb-lg-4">Fewer than 26% of households in Australia use a rainwater tank.</p>
                         <p class="h24 line-height-2">Aussie Water Savers produces high quality, value for money, rainwater tank systems for construction professionals completing both residential and commercial projects.</p>
                         <p class="h24 line-height-2">We have been providing our Rainwater Tank services and products business for over 35+ years. Helping households save over 1 million litres per year which equates to significant savings per household. Our experienced technicians can help you save the environment and on expenses, providing expertise whether it is your home or business.</p>
@@ -209,7 +209,7 @@ include __DIR__ . '/header.php';
             </div>
         </div>
     </div>
-    <div class="pt-4 d-lg-none"><?= renderImg("about.png", "background") ?></div>
+    <div class="pt-4 d-xl-none"><?= renderImg("about.png", "background") ?></div>
 </section>
 
 <section class="solutions">
@@ -222,7 +222,7 @@ include __DIR__ . '/header.php';
                 We are the rainwater tank system specialists with the team & talent to fix problems no one else can
             </div>
             <div class="row justify-content-center gx-3 gy-4 gy-md-5 gy-lg-6">
-                <div class="col-md-6 col-lg-4 col-xxl-3">
+                <div class="col-md-6 col-xl-4 col-xxl-3">
                     <div class="solution-card">
                         <?= renderImg("sol-1.png", "lib") ?>
                         <div class="caption">
@@ -231,7 +231,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xxl-3">
+                <div class="col-md-6 col-xl-4 col-xxl-3">
                     <div class="solution-card">
                         <?= renderImg("sol-2.png", "lib") ?>
                         <div class="caption">
@@ -240,7 +240,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xxl-3">
+                <div class="col-md-6 col-xl-4 col-xxl-3">
                     <div class="solution-card">
                         <?= renderImg("sol-3.png", "lib") ?>
                         <div class="caption">
@@ -249,7 +249,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xxl-3">
+                <div class="col-md-6 col-xl-4 col-xxl-3">
                     <div class="solution-card">
                         <?= renderImg("sol-4.png", "lib") ?>
                         <div class="caption">
@@ -258,7 +258,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xxl-3">
+                <div class="col-md-6 col-xl-4 col-xxl-3">
                     <div class="solution-card">
                         <?= renderImg("sol-5.png", "lib") ?>
                         <div class="caption">
@@ -267,7 +267,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xxl-3">
+                <div class="col-md-6 col-xl-4 col-xxl-3">
                     <div class="solution-card">
                         <?= renderImg("sol-6.png", "lib") ?>
                         <div class="caption">
@@ -276,7 +276,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xxl-3">
+                <div class="col-md-6 col-xl-4 col-xxl-3">
                     <div class="solution-card">
                         <?= renderImg("sol-7.png", "lib") ?>
                         <div class="caption">
@@ -294,7 +294,7 @@ include __DIR__ . '/header.php';
     <div class="part-1">
         <div class="container-fluid">
             <div class="row justify-content-center">
-                <div class="col-12 col-lg-11">
+                <div class="col-12 col-xl-11">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-7 col-md-5"><?= renderImg("grey-tank.png", "lib") ?></div>
                         <div class="col-md-7 pt-4 pt-md-0">
