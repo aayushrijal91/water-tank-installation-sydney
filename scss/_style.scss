@@ -6,15 +6,28 @@ header {
     .header-top-bar {
         padding: 61px 0 29px;
 
+        @include media-breakpoint-down(sm) {
+            padding: 24px 0;
+        }
+
         .btn {
             height: 90px;
             display: flex;
             align-items: center;
             justify-content: center;
+
+            @include media-breakpoint-down(sm) {
+                height: 50px;
+            }
         }
 
         .cross-btn-wrapper {
             width: 90px;
+
+            @include media-breakpoint-down(sm) {
+                width: 50px;
+                height: 50px;
+            }
 
             .cross-btn {
                 background-color: $primary;
@@ -36,6 +49,10 @@ header {
                     transform: scaleX(1);
                     transition: 0.5s all ease;
                     font-size: 1.781875rem; // 28.51px
+
+                    @include media-breakpoint-down(sm) {
+                        font-size: 0.875rem;
+                    }
                 }
 
                 .icon {
@@ -59,6 +76,14 @@ header {
                         transform: scaleX(1);
                         transition: 0.5s all ease;
                     }
+
+                    @include media-breakpoint-down(sm) {
+                        width: 50px;
+                    }
+                }
+
+                @include media-breakpoint-down(sm) {
+                    height: 50px;
                 }
             }
         }
@@ -83,7 +108,7 @@ header {
             }
 
             @include media-breakpoint-down(sm) {
-                font-size: 3rem;
+                font-size: 2.25rem;
             }
         }
 
@@ -92,6 +117,12 @@ header {
             font-size: 3rem;
             font-weight: 600;
             line-height: 1.69;
+
+            @include media-breakpoint-down(sm) {
+                font-size: 1.5rem;
+                padding-top: 34px;
+                line-height: 1.2;
+            }
         }
 
         .banner-button-wrapper {
@@ -126,11 +157,21 @@ header {
                         opacity: 1;
                     }
                 }
+
+                @include media-breakpoint-down(sm) {
+                    font-size: 0.875rem;
+                    height: 50px;
+                    display: inline-flex;
+                }
             }
         }
 
         .tank-animation-wrapper {
-            padding: 122px 0;
+            padding: 80px 0;
+
+            @include media-breakpoint-up(md) {
+                padding: 122px 0;
+            } 
 
             .tank-animation {
                 background: $secondary;
@@ -139,10 +180,18 @@ header {
                 position: relative;
 
                 .tank-img {
-                    position: absolute;
-                    bottom: 0;
-                    right: 2rem;
                     width: 100%;
+
+                    @include media-breakpoint-up(md) {
+                        position: absolute;
+                        bottom: 0;
+                        right: 2rem;
+                    }
+                }
+
+                @include media-breakpoint-down(sm) {
+                    border-radius: 21px 21px 0 0;
+                    height: auto;
                 }
             }
         }
@@ -151,8 +200,10 @@ header {
 
 section.services {
     .services-slider {
-        .slick-list {
-            padding: 0 20% 0 0;
+        @include media-breakpoint-up(md) {
+            .slick-list {
+                padding: 0 20% 0 0;
+            }
         }
 
         .slick-track {
@@ -161,16 +212,15 @@ section.services {
         }
 
         .service-card {
-            filter: drop-shadow(37px 43.29px 50px rgba(0, 0, 0, 0.12));
-
             @include media-breakpoint-up(md) {
+                filter: drop-shadow(37px 43.29px 50px rgba(0, 0, 0, 0.12));
                 margin: 0 37px 100px 0;
             }
 
             .pre-text {
                 background: $white;
-                border-radius: 46.6789px;
-                min-height: 511px;
+                border-radius: 21px;
+                min-height: 342px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -178,6 +228,11 @@ section.services {
                 transition: 0.5s all ease;
                 align-items: center;
                 text-align: center;
+
+                @include media-breakpoint-up(md) {
+                    border-radius: 46.6789px;
+                    min-height: 511px;
+                }
 
                 .pricing {
                     display: flex;
@@ -191,7 +246,7 @@ section.services {
                         font-size: 0.9375rem; // 15px
 
                         @include media-breakpoint-down(sm) {
-                            font-size: 0.875rem; // 14px
+                            font-size: 0.675rem; // 14px
                         }
                     }
 
@@ -206,7 +261,7 @@ section.services {
                         }
 
                         @include media-breakpoint-down(sm) {
-                            font-size: 4rem;
+                            font-size: 3rem;
                         }
                     }
                 }
@@ -215,11 +270,16 @@ section.services {
             .active-text {
                 background: imgUrl("active-eclipse.png") left top,
                     linear-gradient(90deg, $secondary 37.53%, $primary 102.6%);
-                border-radius: 38.8414px;
+                    border-radius: 21px;
                 display: none;
-                height: 602.26px;
-                padding: 59px;
                 color: $white;
+                padding: 24px;
+
+                @include media-breakpoint-up(md) {
+                    border-radius: 38.8414px;
+                    height: 602.26px;
+                    padding: 59px;
+                }
 
                 .max-width {
                     max-width: 454px;
@@ -242,7 +302,11 @@ section.services {
 }
 
 section.products {
-    padding: 107px 0;
+    padding: 80px 0;
+
+    @include media-breakpoint-up(md) {
+        padding: 107px 0;
+    }
 
     .product-card {
         img {
@@ -257,18 +321,30 @@ section.products {
             flex-direction: column;
             padding: 14px;
             text-align: center;
+
+            @include media-breakpoint-down(sm) {
+                min-height: 150px;
+            }
         }
     }
 }
 
 section.about-us {
-    background: imgUrl("about.png") left bottom;
-    padding: 77px 0 70px;
+    padding: 24px 0 0;
+    
+    @include media-breakpoint-up(md) {
+        background: imgUrl("about.png") left bottom;
+        padding: 77px 0 70px;
+    }
 }
 
 section.solutions {
     background: $dark;
-    padding: 151px 0 183px;
+    padding: 64px 0;
+
+    @include media-breakpoint-up(md) {
+        padding: 151px 0 183px;
+    }
 
     .solution-card {
         img {
@@ -286,8 +362,10 @@ section.why-choose {
     padding: 50px 0;
     background: imgUrl("lines.png") center;
 
-    .part-1 {
-        padding: 150px 0;
+    @include media-breakpoint-up(md) {
+        .part-1 {
+            padding: 150px 0;
+        }
     }
 
     .part-2 {
@@ -297,13 +375,21 @@ section.why-choose {
             border: 1px solid rgba(19, 19, 22, 0.1);
             border-radius: 2px;
             margin: 20px 0;
+
+            @include media-breakpoint-down(sm) {
+                padding: 16px;
+            }
         }
     }
 }
 
 section.testimonials {
     background: linear-gradient(rgba(0, 0, 0, 0) 0% 50%, $secondary 50% 100%);
-    padding: 87px 0 94px;
+    padding: 24px 0;
+
+    @include media-breakpoint-up(md) {
+        padding: 87px 0 94px;
+    }
 
     .testimonials-slider {
         .slick-track {
@@ -345,12 +431,14 @@ section.testimonials {
                 padding: 0 27px 32.21px;
             }
 
-            &.spaced {
-                margin-bottom: 128px;
-            }
-
-            &.inverse-spaced {
-                margin-top: 128px;
+            @include media-breakpoint-up(md) {
+                &.spaced {
+                    margin-bottom: 128px;
+                }
+    
+                &.inverse-spaced {
+                    margin-top: 128px;
+                }
             }
         }
     }
@@ -484,7 +572,11 @@ footer {
     .footer-top {
         background: $secondary;
         color: $white;
-        padding: 86px 0;
+        padding: 40px 0;
+        
+        @include media-breakpoint-up(md){
+            padding: 86px 0;
+        }
 
         .footer-logo {
             display: flex;
@@ -506,5 +598,9 @@ footer {
         background-color: $dark;
         font-size: 0.875rem;
         color: $white;
+
+        @include media-breakpoint-down(sm) {
+            font-size: 0.675rem;
+        } 
     }
 }

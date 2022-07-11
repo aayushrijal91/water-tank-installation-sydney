@@ -23,24 +23,24 @@
 		<div class="container">
 			<div class="row justify-content-center justify-content-lg-between align-items-center py-3 py-lg-4">
 				<div class="col-auto">
-					<div class="row no-gutters mb-3 mb-md-0 justify-content-center">
-						<div class="col-12 col-md-auto text-center">Copyright <?= date('Y') ?></div>
-						<div class="col-auto px-2 px-md-3 text-primary fw-800">|</div>
-						<div class="col-12 col-md-auto text-center"><?= $site ?></div>
-						<div class="col-auto px-2 px-md-3 text-primary fw-800">|</div>
-						<div class="col-12 col-md-auto text-center">All Rights Reserved
+					<div class="row gx-0 gx-md-3 no-gutters justify-content-center">
+						<div class="col-auto text-center">Copyright <?= date('Y') ?></div>
+						<div class="col-auto px-1 px-md-3 text-primary fw-800">|</div>
+						<div class="col-auto text-center"><?= $site ?></div>
+						<div class="col-auto px-1 px-md-3 text-primary fw-800">|</div>
+						<div class="col-auto text-center">All Rights Reserved
 						</div>
 					</div>
 				</div>
-				<div class="col-auto">
+				<div class="col-auto py-4 py-md-0">
 					<?= renderImg("payment-options.png", "icons") ?>
 				</div>
 				<div class="col-auto">
 					<div class="row no-gutters justify-content-center justify-content-lg-end align-items-center">
 						<div class="col-auto"><u>Terms &amp; Conditions</u></div>
-						<div class="col-auto px-2 px-md-3 text-primary fw-800">|</div>
+						<div class="col-auto px-1 px-md-3 text-primary fw-800">|</div>
 						<div class="col-auto"><u>Privacy Policies</u></div>
-						<div class="col-auto footer-nav-li ps-lg-4">
+						<div class="col-auto ps-lg-4 pt-4 pt-md-0">
 							<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
 								<?= renderImg("aiims.png", "logo") ?>
 							</a>

@@ -35,6 +35,13 @@ $(() => {
         arrows: false,
         autoplay: true,
         variableWidth: true,
+        responsive: [{
+            breakpoint: 540,
+            settings: {
+                slidesToShow: 1,
+                variableWidth: false,
+            }
+        }]
     });
 
     $(".testimonials-slider").slick({
@@ -44,6 +51,13 @@ $(() => {
         arrows: false,
         centerPadding: "120px",
         autoplay: true,
+        responsive: [{
+            breakpoint: 540,
+            settings: {
+                slidesToShow: 1,
+                centerPadding: "0px"
+            }
+        }]
     })
 });
 

@@ -27,20 +27,20 @@
 		<div class="header-top-bar">
 			<div class="container">
 				<div class="row justify-content-center justify-content-lg-between align-items-center">
-					<div class="col-auto">
+					<div class="col-9 col-md-auto pb-4 pb-md-0">
 						<a href="./">
 							<?= renderImg("logo.png", "logo") ?>
 						</a>
 					</div>
 					<div class="col-auto">
-						<div class="row justify-content-center justify-content-lg-end no-gutters align-items-center position-relative">
+						<div class="row justify-content-center justify-content-lg-end no-gutters align-items-center position-relative gx-1 gx-md-3">
 							<div class="col-auto">
-								<a href="tel:<?= $phone_number ?>" class="btn btn-block btn-dark rounded-pill text-white py-3 px-md-5 h14">
+								<a href="tel:<?= $phone_number ?>" class="btn btn-block btn-dark rounded-pill text-white px-3 py-2 py-md-3 px-md-5 h14">
 									Call Us 24/7 <b><?= $phone_number ?></b>
 								</a>
 							</div>
 							<div class="col-auto">
-								<a href="#form" class="btn btn-block btn-dark rounded-pill text-white py-3 px-md-5 h14">
+								<a href="#form" class="btn btn-block btn-dark rounded-pill text-white px-3 py-2 py-md-3 px-md-5 h14">
 									Book Online
 								</a>
 							</div>
@@ -68,7 +68,7 @@
 							We are a Sydney Based Water Tank Company, Australian Made
 						</div>
 					</div>
-					<div class="col py-5">
+					<div class="col py-4 py-md-5">
 						<div class="h9 line-height-3">Off Grid Water supply made easy. Grow healthier, stronger plants in your backyard & reduce water bills, Supplied & Installed </div>
 						<div class="banner-button-wrapper">
 							<a href="#form" class="btn btn-primary rounded-pill banner-button">
@@ -86,18 +86,18 @@
 				<div class="container">
 					<div class="tank-animation">
 						<div class="row h-100">
-							<div class="col-6 px-xl-5">
+							<div class="col-md-6 px-xl-5">
 								<div class="d-flex justify-content-center h-100 flex-column" data-aos="slide-right">
-									<div class="h9 fw-800 text-white pb-5">We have saved millions of litres for:</div>
-									<div class="row g-2 justify-content-between align-items-center">
-										<div class="col-auto"><?= renderImg("kingspan.png", "logo") ?></div>
-										<div class="col-auto"><?= renderImg("nsw-education.png", "logo") ?></div>
-										<div class="col-auto"><?= renderImg("emerald-hill.png", "logo") ?></div>
-										<div class="col-auto"><?= renderImg("jordan-springs.png", "logo") ?></div>
+									<div class="h9 fw-800 text-white px-4 py-5 px-md-0 pt-md-0 pb-md-5">We have saved millions of litres for:</div>
+									<div class="row g-4 g-md-2 justify-content-between align-items-center px-4 pb-4 p-md-0">
+										<div class="col-6 col-md-auto"><?= renderImg("kingspan.png", "logo") ?></div>
+										<div class="col-6 col-md-auto"><?= renderImg("nsw-education.png", "logo") ?></div>
+										<div class="col-6 col-md-auto"><?= renderImg("emerald-hill.png", "logo") ?></div>
+										<div class="col-6 col-md-auto"><?= renderImg("jordan-springs.png", "logo") ?></div>
 									</div>
 								</div>
 							</div>
-							<div class="col-6">
+							<div class="col-md-6">
 								<div class="h-100" data-aos="slide-up"><?= renderImg("tank.png", "lib", "tank-img") ?></div>
 							</div>
 						</div>
@@ -106,8 +106,3 @@
 			</div>
 		</div>
 	</header>
-
-	<!-- <button class="cta">
-		<?= renderImg("x-mark.png", "icons", "cross") ?>
-		<span class="button-text">Read More</span>
-	</button> -->
