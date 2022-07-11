@@ -348,6 +348,92 @@ include __DIR__ . '/header.php';
     </div>
 </section>
 
+<section class="faqs">
+    <div class="container">
+        <div class="accordion-container">
+            <div class="accordion-card">
+                <div class="accordion-head active">
+                    <div class="main-question">
+                        Can I drink water from a rainwater tank?
+                    </div>
+                    <div class="plusminus">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9323 29.9917C6.77371 29.9917 0.159546 23.3775 0.159546 15.219C0.159546 7.06037 6.77371 0.446207 14.9323 0.446207C23.0909 0.446207 29.705 7.06037 29.705 15.219C29.705 23.3775 23.0909 29.9917 14.9323 29.9917ZM10.5099 18.1829C10.2566 18.4275 9.91734 18.5629 9.56522 18.5598C9.21309 18.5568 8.87626 18.4155 8.62726 18.1665C8.37826 17.9175 8.23702 17.5807 8.23396 17.2286C8.2309 16.8765 8.36627 16.5372 8.6109 16.2839L13.9828 10.912C14.2347 10.6603 14.5762 10.5188 14.9323 10.5188C15.2884 10.5188 15.6299 10.6603 15.8818 10.912L21.2537 16.2839C21.4983 16.5372 21.6337 16.8765 21.6306 17.2286C21.6276 17.5807 21.4863 17.9175 21.2373 18.1665C20.9883 18.4155 20.6515 18.5568 20.2994 18.5598C19.9472 18.5629 19.608 18.4275 19.3547 18.1829L14.9323 13.7605L10.5099 18.1829Z" fill="#131316" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="accordion-body" style="display: block">
+                    You can definitely drink water from your tank with the proper filtration. Drinking without filters can cause severe sickness.
+                </div>
+            </div>
+            <div class="accordion-card">
+                <div class="accordion-head">
+                    <div class="main-question">
+                        How can I protect water quality?
+                    </div>
+                    <div class="plusminus">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9323 0.38916C6.77371 0.38916 0.159546 7.00332 0.159546 15.1619C0.159546 23.3205 6.77371 29.9347 14.9323 29.9347C23.0909 29.9347 29.705 23.3205 29.705 15.1619C29.705 7.00332 23.0909 0.38916 14.9323 0.38916ZM10.5099 12.198C10.2566 11.9533 9.91734 11.818 9.56522 11.821C9.21309 11.8241 8.87626 11.9653 8.62726 12.2143C8.37826 12.4633 8.23702 12.8001 8.23396 13.1523C8.2309 13.5044 8.36627 13.8436 8.6109 14.0969L13.9828 19.4688C14.2347 19.7206 14.5762 19.862 14.9323 19.862C15.2884 19.862 15.6299 19.7206 15.8818 19.4688L21.2537 14.0969C21.4983 13.8436 21.6337 13.5044 21.6306 13.1523C21.6276 12.8001 21.4863 12.4633 21.2373 12.2143C20.9883 11.9653 20.6515 11.8241 20.2994 11.821C19.9472 11.818 19.608 11.9533 19.3547 12.198L14.9323 16.6204L10.5099 12.198Z" fill="#131316" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="accordion-body">
+                    Water quality is protected with the right pre and post filtration and regular servicing.
+                </div>
+            </div>
+            <div class="accordion-card">
+                <div class="accordion-head">
+                    <div class="main-question">
+                        What type of Tank Maintenance do I need to follow?
+                    </div>
+                    <div class="plusminus">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9323 0.38916C6.77371 0.38916 0.159546 7.00332 0.159546 15.1619C0.159546 23.3205 6.77371 29.9347 14.9323 29.9347C23.0909 29.9347 29.705 23.3205 29.705 15.1619C29.705 7.00332 23.0909 0.38916 14.9323 0.38916ZM10.5099 12.198C10.2566 11.9533 9.91734 11.818 9.56522 11.821C9.21309 11.8241 8.87626 11.9653 8.62726 12.2143C8.37826 12.4633 8.23702 12.8001 8.23396 13.1523C8.2309 13.5044 8.36627 13.8436 8.6109 14.0969L13.9828 19.4688C14.2347 19.7206 14.5762 19.862 14.9323 19.862C15.2884 19.862 15.6299 19.7206 15.8818 19.4688L21.2537 14.0969C21.4983 13.8436 21.6337 13.5044 21.6306 13.1523C21.6276 12.8001 21.4863 12.4633 21.2373 12.2143C20.9883 11.9653 20.6515 11.8241 20.2994 11.821C19.9472 11.818 19.608 11.9533 19.3547 12.198L14.9323 16.6204L10.5099 12.198Z" fill="#131316" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="accordion-body">
+                    Tank maintenance is different for everyone but generally, every tank should be serviced and cleaned at least once every 24 months.
+                </div>
+            </div>
+            <div class="accordion-card">
+                <div class="accordion-head">
+                    <div class="main-question">
+                        What are the considerations when installing a tank?
+                    </div>
+                    <div class="plusminus">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9323 0.38916C6.77371 0.38916 0.159546 7.00332 0.159546 15.1619C0.159546 23.3205 6.77371 29.9347 14.9323 29.9347C23.0909 29.9347 29.705 23.3205 29.705 15.1619C29.705 7.00332 23.0909 0.38916 14.9323 0.38916ZM10.5099 12.198C10.2566 11.9533 9.91734 11.818 9.56522 11.821C9.21309 11.8241 8.87626 11.9653 8.62726 12.2143C8.37826 12.4633 8.23702 12.8001 8.23396 13.1523C8.2309 13.5044 8.36627 13.8436 8.6109 14.0969L13.9828 19.4688C14.2347 19.7206 14.5762 19.862 14.9323 19.862C15.2884 19.862 15.6299 19.7206 15.8818 19.4688L21.2537 14.0969C21.4983 13.8436 21.6337 13.5044 21.6306 13.1523C21.6276 12.8001 21.4863 12.4633 21.2373 12.2143C20.9883 11.9653 20.6515 11.8241 20.2994 11.821C19.9472 11.818 19.608 11.9533 19.3547 12.198L14.9323 16.6204L10.5099 12.198Z" fill="#131316" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="accordion-body">
+                    <p>Considerations for installing a tank include:</p>
+                    <div>- Desired capacity</div>
+                    <div>- What the purpose is for, ie is it for drinking, garden, appliances or something else?</div>
+                    <div>- What connection points are needed?</div>
+                    <div>- Where the proposed installation point is?</div>
+                </div>
+            </div>
+            <div class="accordion-card">
+                <div class="accordion-head">
+                    <div class="main-question">
+                        Do I need council approval for installing a tank?
+                    </div>
+                    <div class="plusminus">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9323 0.38916C6.77371 0.38916 0.159546 7.00332 0.159546 15.1619C0.159546 23.3205 6.77371 29.9347 14.9323 29.9347C23.0909 29.9347 29.705 23.3205 29.705 15.1619C29.705 7.00332 23.0909 0.38916 14.9323 0.38916ZM10.5099 12.198C10.2566 11.9533 9.91734 11.818 9.56522 11.821C9.21309 11.8241 8.87626 11.9653 8.62726 12.2143C8.37826 12.4633 8.23702 12.8001 8.23396 13.1523C8.2309 13.5044 8.36627 13.8436 8.6109 14.0969L13.9828 19.4688C14.2347 19.7206 14.5762 19.862 14.9323 19.862C15.2884 19.862 15.6299 19.7206 15.8818 19.4688L21.2537 14.0969C21.4983 13.8436 21.6337 13.5044 21.6306 13.1523C21.6276 12.8001 21.4863 12.4633 21.2373 12.2143C20.9883 11.9653 20.6515 11.8241 20.2994 11.821C19.9472 11.818 19.608 11.9533 19.3547 12.198L14.9323 16.6204L10.5099 12.198Z" fill="#131316" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="accordion-body">
+                    Tanks are exempt from council approval when following Sept 2008 (exempt and complying development)
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="form" id="form">
     <div class="container">
         <form action="./src/form" method="POST">
@@ -382,7 +468,7 @@ include __DIR__ . '/header.php';
                     <input id="address" class="form-control border-1 rounded-0 bg-white" type="text" placeholder="Enter Your Address" name="address" required>
                 </div>
                 <div class="col-12 col-md-6 pl-md-4">
-                    <label for="tanksAge">Property Type</label>
+                    <label for="propertyType">Property Type</label>
                     <select name="propertyType" class="form-control rounded-0 bg-white" id="propertyType" required>
                         <option disabled selected class="disabled-service">Select Your Property Type Below</option>
                         <option>1-5 Years</option>
