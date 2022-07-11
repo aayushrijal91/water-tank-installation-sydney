@@ -51,13 +51,21 @@ $(() => {
         arrows: false,
         centerPadding: "120px",
         autoplay: true,
-        responsive: [{
-            breakpoint: 540,
-            settings: {
-                slidesToShow: 1,
-                centerPadding: "0px"
-            }
-        }]
+        responsive: [
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 2,
+                    centerPadding: "0px"
+                }
+            },
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: "0px"
+                }
+            }]
     })
 });
 

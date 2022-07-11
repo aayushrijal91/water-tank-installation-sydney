@@ -32,7 +32,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-auto py-4 py-md-0">
+				<div class="col-auto py-4 py-lg-0">
 					<?= renderImg("payment-options.png", "icons") ?>
 				</div>
 				<div class="col-auto">

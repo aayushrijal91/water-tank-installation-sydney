@@ -4,20 +4,20 @@ include __DIR__ . '/header.php';
 ?>
 
 <section class="services">
-    <div class="container-fluid p-md-0">
+    <div class="container-fluid p-lg-0">
         <div class="row g-xl-0 justify-content-end">
             <div class="col-12 col-xl-11">
                 <div class="row g-0">
-                    <div class="col-md-4 pe-xxl-5 py-5 py-md-6">
+                    <div class="col-lg-4 pe-xxl-5 py-5 py-md-6">
                         <div class="h7 fw-800 line-height-4">Give fluoridated chlorinated water the flick &amp; <span class="text-secondary">turn rain into cash!</span></div>
                         <div class="h19 text-dark-grey line-height-3 pt-4 pb-2">Rainwater harvesting systems for your home, made easy.</div>
-                        <a href="#form" class="btn btn-block text-secondary px-0 pt-4 pt-md-5 h19 fw-700">
+                        <a href="#form" class="btn btn-block text-secondary px-0 pt-4 pt-lg-5 h19 fw-700">
                             <span class="pe-3">Free ONSITE Home Quotes</span> <svg width="30" height="14" viewBox="0 0 30 14" fill="#0A3DE2" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M28.7431 6.29768L23.0817 0.636262C22.7428 0.297492 22.2332 0.196167 21.7905 0.379522C21.3478 0.562876 21.0591 0.994815 21.059 1.47398V5.06183C21.059 5.22543 20.9264 5.35806 20.7628 5.35806H2.43017C1.44857 5.35806 0.652832 6.1538 0.652832 7.13539C0.652832 8.11699 1.44857 8.91273 2.43017 8.91273H20.7628C20.9264 8.91273 21.059 9.04535 21.059 9.20895V12.7968C21.0591 13.276 21.3478 13.7079 21.7905 13.8913C22.2332 14.0746 22.7428 13.9733 23.0817 13.6345L28.7431 7.97311C29.2056 7.51041 29.2056 6.76038 28.7431 6.29768Z" fill="#0A3DE2" />
                             </svg>
                         </a>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-lg-8">
                         <div class="services-slider">
                             <div class="service-card">
                                 <div class="pre-text">
@@ -110,8 +110,8 @@ include __DIR__ . '/header.php';
         <div class="row justify-content-center">
             <div class="col-12 col-lg-11">
                 <div class="text-center h3 fw-800 pb-5">Want to see some of our products?</div>
-                <div class="row g-3 pt-md-6">
-                    <div class="col-6 col-md-4 col-xl-2">
+                <div class="row g-3 pt-lg-6">
+                    <div class="col-6 col-lg-4 col-xl-2">
                         <div class="product-card">
                             <?= renderImg("under-deck-tank.png", "lib") ?>
                             <div class="info">
@@ -123,7 +123,7 @@ include __DIR__ . '/header.php';
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 col-xl-2">
+                    <div class="col-6 col-lg-4 col-xl-2">
                         <div class="product-card">
                             <?= renderImg("slim-tank.png", "lib") ?>
                             <div class="info">
@@ -135,7 +135,7 @@ include __DIR__ . '/header.php';
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 col-xl-2">
+                    <div class="col-6 col-lg-4 col-xl-2">
                         <div class="product-card">
                             <?= renderImg("submersible.png", "lib") ?>
                             <div class="info">
@@ -147,7 +147,7 @@ include __DIR__ . '/header.php';
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 col-xl-2">
+                    <div class="col-6 col-lg-4 col-xl-2">
                         <div class="product-card">
                             <?= renderImg("garden-pump.png", "lib") ?>
                             <div class="info">
@@ -159,7 +159,7 @@ include __DIR__ . '/header.php';
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 col-xl-2">
+                    <div class="col-6 col-lg-4 col-xl-2">
                         <div class="product-card">
                             <?= renderImg("external-diverter.png", "lib") ?>
                             <div class="info">
@@ -171,7 +171,7 @@ include __DIR__ . '/header.php';
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 col-xl-2">
+                    <div class="col-6 col-lg-4 col-xl-2">
                         <div class="product-card">
                             <?= renderImg("concrete-tank.png", "lib") ?>
                             <div class="info">
@@ -194,14 +194,14 @@ include __DIR__ . '/header.php';
         <div class="row justify-content-center">
             <div class="col-12 col-lg-11">
                 <div class="row g-2">
-                    <div class="col-md-4 h5 fw-700">Who are we?</div>
-                    <div class="col-md-8 fw-600 fw-600 h13 line-height-3">
+                    <div class="col-lg-4 h5 fw-700">Who are we?</div>
+                    <div class="col-lg-8 fw-600 fw-600 h13 line-height-3">
                         A family owned and operated business, Aussie Water Savers (AWS) is a leading manufacturer & supplier & installer of Rainwater Tanks in Sydney.
                     </div>
                 </div>
-                <div class="row justify-content-end pt-4 pt-md-6">
-                    <div class="col-md-6">
-                        <p class="text-secondary fw-700 h18 pb-2 pb-md-4">Fewer than 26% of households in Australia use a rainwater tank.</p>
+                <div class="row justify-content-end pt-4 pt-md-5 pt-lg-6">
+                    <div class="col-lg-6">
+                        <p class="text-secondary fw-700 h18 pb-2 pb-lg-4">Fewer than 26% of households in Australia use a rainwater tank.</p>
                         <p class="h24 line-height-2">Aussie Water Savers produces high quality, value for money, rainwater tank systems for construction professionals completing both residential and commercial projects.</p>
                         <p class="h24 line-height-2">We have been providing our Rainwater Tank services and products business for over 35+ years. Helping households save over 1 million litres per year which equates to significant savings per household. Our experienced technicians can help you save the environment and on expenses, providing expertise whether it is your home or business.</p>
                     </div>
@@ -209,7 +209,7 @@ include __DIR__ . '/header.php';
             </div>
         </div>
     </div>
-    <div class="pt-4 d-md-none"><?= renderImg("about.png", "background") ?></div>
+    <div class="pt-4 d-lg-none"><?= renderImg("about.png", "background") ?></div>
 </section>
 
 <section class="solutions">
@@ -221,7 +221,7 @@ include __DIR__ . '/header.php';
             <div class="text-white font-proxima-nova text-center h13 fw-700 pt-4 pt-md-5">
                 We are the rainwater tank system specialists with the team & talent to fix problems no one else can
             </div>
-            <div class="row justify-content-center gx-3 gy-4 gy-md-6">
+            <div class="row justify-content-center gx-3 gy-4 gy-md-5 gy-lg-6">
                 <div class="col-md-6 col-lg-3">
                     <div class="solution-card">
                         <?= renderImg("sol-1.png", "lib") ?>
@@ -299,7 +299,7 @@ include __DIR__ . '/header.php';
                         <div class="col-7 col-md-5"><?= renderImg("grey-tank.png", "lib") ?></div>
                         <div class="col-md-7 pt-4 pt-md-0">
                             <div class="h3 fw-700 line-height-4">Why Choose Pauls Tank Warehouse?</div>
-                            <div class="h13 fw-700 line-height-1 py-4 py-md-5">The average person consumes 124,100 litres of water per year!</div>
+                            <div class="h13 fw-700 line-height-1 py-4 py-lg-5">The average person consumes 124,100 litres of water per year!</div>
                             <p class="line-height-2 h21">Water is fundamental to life and having an economical and accessible source is just as important. As veterans in the business, we understand whether you are replacing or installing a rainwater tank, you want to get it done right.</p>
                             <p class="line-height-2 h21">We have been helping Australian communities with saving on their water bills since the beginning.</p>
                             <a href="#form" class="btn btn-block text-secondary px-0 pt-md-4 h19 fw-700">
