@@ -59,6 +59,10 @@ header {
                     transition: 0.5s all ease;
                     font-size: 1.781875rem; // 28.51px
 
+                    @include media-breakpoint-down(xxl) {
+                        font-size: 1.5rem;
+                    }
+                    
                     @include media-breakpoint-down(lg) {
                         font-size: 1.125rem;
                     }
@@ -121,7 +125,7 @@ header {
             line-height: 1.46;
 
             @include media-breakpoint-down(xxl) {
-                font-size: 4.7rem;
+                font-size: 4.25rem;
             }
 
             @include media-breakpoint-down(lg) {
@@ -139,7 +143,7 @@ header {
             font-weight: 600;
             line-height: 1.69;
 
-            @include media-breakpoint-down(lg) {
+            @include media-breakpoint-down(xxl) {
                 font-size: 2rem;
                 line-height: 1.2;
             }
@@ -289,6 +293,10 @@ section.services {
                         line-height: 0.8;
                         padding-left: 13px;
                         font-size: 5.638125rem; // 90.21px
+                        
+                        @include media-breakpoint-down(xxl) {
+                            font-size: 4rem;
+                        }
 
                         @include media-breakpoint-down(md) {
                             font-size: 3rem;
@@ -312,6 +320,14 @@ section.services {
                 @include media-breakpoint-up(md) {
                     border-radius: 38.8414px;
                     height: 602.26px;
+                    padding: 59px;
+                }
+
+                @include media-breakpoint-up(lg) {
+                    padding: 59px 24px;
+                }
+
+                @include media-breakpoint-up(xxl) {
                     padding: 59px;
                 }
 
@@ -381,6 +397,10 @@ section.solutions {
     padding: 64px 0;
 
     @include media-breakpoint-up(lg) {
+        padding: 100px 0;
+    }
+
+    @include media-breakpoint-up(xxl) {
         padding: 151px 0 183px;
     }
 

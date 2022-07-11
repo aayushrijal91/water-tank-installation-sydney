@@ -27,7 +27,7 @@
 		<div class="header-top-bar">
 			<div class="container">
 				<div class="row justify-content-center justify-content-lg-between align-items-center">
-					<div class="col-9 col-md-7 col-lg-auto pb-4 pb-md-5 pb-lg-0">
+					<div class="col-9 col-md-7 col-lg-4 col-xxl-auto pb-4 pb-md-5 pb-lg-0">
 						<a href="./">
 							<?= renderImg("logo.png", "logo") ?>
 						</a>
@@ -89,11 +89,11 @@
 							<div class="col-lg-6 px-md-5">
 								<div class="d-flex justify-content-center h-100 flex-column" data-aos="slide-right">
 									<div class="h9 fw-800 text-white px-4 py-5 px-md-0 pt-lg-0">We have saved millions of litres for:</div>
-									<div class="row g-4 g-lg-2 justify-content-between align-items-center px-4 pb-4 p-lg-0">
-										<div class="col-6 col-md col-lg-auto text-center"><?= renderImg("kingspan.png", "logo") ?></div>
-										<div class="col-6 col-md col-lg-auto text-center"><?= renderImg("nsw-education.png", "logo") ?></div>
-										<div class="col-6 col-md col-lg-auto text-center"><?= renderImg("emerald-hill.png", "logo") ?></div>
-										<div class="col-6 col-md col-lg-auto text-center"><?= renderImg("jordan-springs.png", "logo") ?></div>
+									<div class="row g-4 g-xl-3 g-xxl-2 justify-content-between align-items-center px-4 pb-4 p-lg-0">
+										<div class="col-6 col-md col-xxl-auto text-center"><?= renderImg("kingspan.png", "logo") ?></div>
+										<div class="col-6 col-md col-xxl-auto text-center"><?= renderImg("nsw-education.png", "logo") ?></div>
+										<div class="col-6 col-md col-xxl-auto text-center"><?= renderImg("emerald-hill.png", "logo") ?></div>
+										<div class="col-6 col-md col-xxl-auto text-center"><?= renderImg("jordan-springs.png", "logo") ?></div>
 									</div>
 								</div>
 							</div>

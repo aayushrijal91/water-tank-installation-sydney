@@ -57,6 +57,10 @@ h4,
 .h4 {
     font-size: 4.965625rem; // 79.45px
     margin-bottom: 0;
+    
+    @include media-breakpoint-down(xxl) {
+        font-size: 4rem;
+    }
 
     @include media-breakpoint-down(lg) {
         font-size: 3rem;
@@ -100,7 +104,7 @@ h7,
     font-size: 3.37875rem; // 54.06px
     margin-bottom: 0;
 
-    @include media-breakpoint-down(xl) {
+    @include media-breakpoint-down(xxl) {
         font-size: 3rem;
     }
 
@@ -120,6 +124,10 @@ h7,
 .h9 {
     font-size: 2.44rem; // 39.04px
 
+    @include media-breakpoint-down(xxl) {
+        font-size: 1.75rem;
+    }
+
     @include media-breakpoint-down(lg) {
         font-size: 1.25rem;
     }
@@ -131,6 +139,10 @@ h7,
 
 .h10 {
     font-size: 2.27125rem; // 36.34px
+    
+    @include media-breakpoint-down(xxl) {
+        font-size: 2rem;
+    }
 
     @include media-breakpoint-down(sm) {
         font-size: 1rem;
@@ -139,6 +151,10 @@ h7,
 
 .h11 {
     font-size: 2.16rem; // 34.56px
+
+    @include media-breakpoint-down(xxl) {
+        font-size: 2rem;
+    }
 
     @include media-breakpoint-down(sm) {
         font-size: 1.5rem;
@@ -177,7 +193,7 @@ h7,
     font-size: 1.781875rem; // 28.51px
 
     @include media-breakpoint-down(xxl) {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     @include media-breakpoint-down(lg) {
@@ -212,6 +228,10 @@ h7,
 .h17 {
     font-size: 1.5625rem; // 25px
 
+    @include media-breakpoint-down(xxl) {
+        font-size: 1.25rem;
+    }
+
     @include media-breakpoint-down(lg) {
         font-size: 1.125rem;
     }
@@ -224,8 +244,8 @@ h7,
 .h18 {
     font-size: 1.515625rem; // 24.25px
 
-    @include media-breakpoint-down(xl) {
-        font-size: 1.4rem;
+    @include media-breakpoint-down(xxl) {
+        font-size: 1.25rem;
     }
 
     @include media-breakpoint-down(md) {

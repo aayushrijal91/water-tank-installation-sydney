@@ -53,6 +53,12 @@ $(() => {
         autoplay: true,
         responsive: [
             {
+                breakpoint: 1600,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
                 breakpoint: 900,
                 settings: {
                     slidesToShow: 2,

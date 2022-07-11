@@ -4,9 +4,9 @@ include __DIR__ . '/header.php';
 ?>
 
 <section class="services">
-    <div class="container-fluid p-lg-0">
+    <div class="container-fluid pe-lg-0 p-xxl-0">
         <div class="row g-xl-0 justify-content-end">
-            <div class="col-12 col-xl-11">
+            <div class="col-12 col-xxl-11">
                 <div class="row g-0">
                     <div class="col-lg-4 pe-xxl-5 py-5 py-md-6">
                         <div class="h7 fw-800 line-height-4">Give fluoridated chlorinated water the flick &amp; <span class="text-secondary">turn rain into cash!</span></div>
@@ -108,7 +108,7 @@ include __DIR__ . '/header.php';
 <section class="products">
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-12 col-lg-11">
+            <div class="col-12 col-xxl-11">
                 <div class="text-center h3 fw-800 pb-5">Want to see some of our products?</div>
                 <div class="row g-3 pt-lg-6">
                     <div class="col-6 col-lg-4 col-xl-2">
@@ -222,7 +222,7 @@ include __DIR__ . '/header.php';
                 We are the rainwater tank system specialists with the team & talent to fix problems no one else can
             </div>
             <div class="row justify-content-center gx-3 gy-4 gy-md-5 gy-lg-6">
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 col-xxl-3">
                     <div class="solution-card">
                         <?= renderImg("sol-1.png", "lib") ?>
                         <div class="caption">
@@ -231,7 +231,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 col-xxl-3">
                     <div class="solution-card">
                         <?= renderImg("sol-2.png", "lib") ?>
                         <div class="caption">
@@ -240,7 +240,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 col-xxl-3">
                     <div class="solution-card">
                         <?= renderImg("sol-3.png", "lib") ?>
                         <div class="caption">
@@ -249,7 +249,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 col-xxl-3">
                     <div class="solution-card">
                         <?= renderImg("sol-4.png", "lib") ?>
                         <div class="caption">
@@ -258,7 +258,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 col-xxl-3">
                     <div class="solution-card">
                         <?= renderImg("sol-5.png", "lib") ?>
                         <div class="caption">
@@ -267,7 +267,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 col-xxl-3">
                     <div class="solution-card">
                         <?= renderImg("sol-6.png", "lib") ?>
                         <div class="caption">
@@ -276,7 +276,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 col-xxl-3">
                     <div class="solution-card">
                         <?= renderImg("sol-7.png", "lib") ?>
                         <div class="caption">
