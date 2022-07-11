@@ -20,7 +20,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
         $name = $_POST['name'];
         $phone = $_POST['phone'];
         $email = $_POST['email'];
-        $message = $_POST['message'];
+        $service = $_POST['service'];
+        $address = $_POST['address'];
+        $propertyType = $_POST['propertyType'];
+        $comment = $_POST['comment'];
 
         $message = '<!DOCTYPE html>
                 <html>
@@ -57,8 +60,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
             '<td><b>' . strip_tags($email) . '</b></td>' .
             '</tr>' .
             '<tr>' .
-            '<td>Message</td>' .
-            '<td><b>' . strip_tags($message) . '</b></td>' .
+            '<td>Service Required</td>' .
+            '<td><b>' . strip_tags($service) . '</b></td>' .
+            '</tr>' .
+            '<tr>' .
+            '<td>Address</td>' .
+            '<td><b>' . strip_tags($address) . '</b></td>' .
+            '</tr>' .
+            '<tr>' .
+            '<td>Property Type</td>' .
+            '<td><b>' . strip_tags($propertyType) . '</b></td>' .
+            '</tr>' .
+            '<tr>' .
+            '<td>Comment</td>' .
+            '<td><b>' . strip_tags($comment) . '</b></td>' .
             '</tr>' .
             '</tbody></table></body></html>';
 
