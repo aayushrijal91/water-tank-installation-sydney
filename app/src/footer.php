@@ -1,48 +1,48 @@
 <footer>
-	<div class="bg-dark">
+	<div class="footer-top">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md col-lg-8">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424143.27896679414!2d150.65110359237903!3d-33.847925485021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney%20NSW!5e0!3m2!1sen!2sau!4v1657090821935!5m2!1sen!2sau" width="100%" height="282" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+				<div class="col-12 col-md-auto col-lg px-xl-6 px-xxl-8 pt-4 pt-md-0">
+					<div class="fw-900 h15">Contact Us Today</div>
+					<div class="py-3 py-md-4 h25">
+						<div>23 Charles Street,</div>
+						<div>St Marys NSW</div>
+						<div>2760</div>
+					</div>
+					<div><a href="tel:<?= $phone_number ?>" class="btn p-0 text-white line-height-1 h17 fw-600">Call <span class="fw-900"><?= $phone_number ?></span></a></div>
+					<div><a href="sms:<?= $phone_number ?>" class="btn p-0 text-white line-height-1 h17 fw-600">SMS <span class="fw-900"><?= $phone_number ?></span></a></div>
+					<div class="pt-4"><a href="mailto:info@transformwater.com.au" class="btn fw-900 h24 p-0 text-white">info@transformwater.com.au</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottom">
 		<div class="container">
 			<div class="row justify-content-center justify-content-lg-between align-items-center py-3 py-lg-4">
 				<div class="col-auto">
-					<div class="row no-gutters mb-3 mb-md-0 text-white justify-content-center">
+					<div class="row no-gutters mb-3 mb-md-0 justify-content-center">
 						<div class="col-12 col-md-auto text-center">Copyright <?= date('Y') ?></div>
-						<div class="col-auto px-2 px-md-4">|</div>
+						<div class="col-auto px-2 px-md-3 text-primary fw-800">|</div>
 						<div class="col-12 col-md-auto text-center"><?= $site ?></div>
-						<div class="col-auto px-2 px-md-4">|</div>
+						<div class="col-auto px-2 px-md-3 text-primary fw-800">|</div>
 						<div class="col-12 col-md-auto text-center">All Rights Reserved
 						</div>
 					</div>
 				</div>
 				<div class="col-auto">
+					<?= renderImg("payment-options.png", "icons") ?>
+				</div>
+				<div class="col-auto">
 					<div class="row no-gutters justify-content-center justify-content-lg-end align-items-center">
-						<div class="col-auto footer-nav-li pl-lg-5">
+						<div class="col-auto"><u>Terms &amp; Conditions</u></div>
+						<div class="col-auto px-2 px-md-3 text-primary fw-800">|</div>
+						<div class="col-auto"><u>Privacy Policies</u></div>
+						<div class="col-auto footer-nav-li ps-lg-4">
 							<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
 								<?= renderImg("aiims.png", "logo") ?>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="section-footer-bottom">
-		<div class="container">
-			<div class="row justify-content-center justify-content-lg-between align-items-center py-3 py-lg-4">
-				<div class="col-auto">
-					<div class="row no-gutters mb-3 mb-md-0">
-						<div class="col mr-1">a</div>
-						<div class="col mr-1">a</div>
-					</div>
-				</div>
-				<div class="col-auto">
-					<div class="row no-gutters justify-content-center justify-content-lg-end align-items-center">
-						<div class="col-auto">Copyright 2021</div>
-						<div class="col-auto px-2 px-md-4">|</div>
-						<div class="col-auto"><?= $site ?></div>
-						<div class="col-auto px-2 px-md-4">|</div>
-						<div class="col-auto">All Rights Reserved</div>
-						<div class="col-auto pl-lg-5">
-							<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
-								<?= renderImg("aiims1.png", "logo") ?>
 							</a>
 						</div>
 					</div>

@@ -348,4 +348,77 @@ include __DIR__ . '/header.php';
     </div>
 </section>
 
+<section class="form" id="form">
+    <div class="container">
+        <form action="./src/form" method="POST">
+            <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
+            <div class="bg-black d-inline-block text-white rounded-0 h28 fw-600 px-3 py-2">Book Now</div>
+            <div class="fw-700 h6 py-3 py-md-4 text-white">Are you ready for Free Onsite Tank Consultation</div>
+            <div class="row pb-4 gx-xxl-5">
+                <div class="col-12 col-md-6 pr-md-4">
+                    <label for="name">Your Full Name</label>
+                    <input id="name" class="form-control border-1 rounded-0 bg-white" type="text" placeholder="Enter Your Name" name="name" required>
+                </div>
+                <div class="col-12 col-md-6 pl-md-4">
+                    <label for="phone">Your Contact Number</label>
+                    <input id="phone" class="form-control rounded-0 bg-white" type="tel" placeholder="Enter a Contact Number" name="phone" required>
+                </div>
+                <div class="col-12 col-md-6 pr-md-4">
+                    <label for="email">Your Email Address</label>
+                    <input id="email" class="form-control rounded-0 bg-white" type="email" placeholder="Enter Email Address" name="email" required>
+                </div>
+                <div class="col-12 col-md-6 pl-md-4">
+                    <label for="service">Service Required</label>
+                    <select name="service" class="form-control rounded-0 bg-white" required>
+                        <option disabled selected class="disabled-service">Select a Service Below</option>
+                        <option>Pump Not Working</option>
+                        <option>Tank is Leaking</option>
+                        <option>Tank Replacement</option>
+                        <option>I am Not Sure</option>
+                    </select>
+                </div>
+                <div class="col-12 col-md-6 pr-md-4">
+                    <label for="address">Your Address</label>
+                    <input id="address" class="form-control border-1 rounded-0 bg-white" type="text" placeholder="Enter Your Address" name="address" required>
+                </div>
+                <div class="col-12 col-md-6 pl-md-4">
+                    <label for="tanksAge">Property Type</label>
+                    <select name="propertyType" class="form-control rounded-0 bg-white" id="propertyType" required>
+                        <option disabled selected class="disabled-service">Select Your Property Type Below</option>
+                        <option>1-5 Years</option>
+                        <option>5-10 Years</option>
+                        <option>I am Not Sure</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <label for="comments">Comments</label>
+                    <textarea name="comment" id="comments" class="form-control rounded-0 border-1" rows="6" placeholder="Do you have any additional comments or questions?"></textarea>
+                </div>
+            </div>
+            <div class="row align-items-center pt-md-4">
+                <div class="col-12 col-md-4 col-lg-3 d-none d-md-block">
+                    <button type="submit" class="btn btn-black text-white form-control rounded-0 h22 fw-800">
+                        Submit
+                    </button>
+                </div>
+                <div class="col-auto ps-xl-6">
+                    <svg width="30" height="35" viewBox="0 0 30 35" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.272 12.4193C17.272 11.7064 16.9963 11.0226 16.5055 10.5185C16.0147 10.0143 15.3491 9.73113 14.655 9.73113C13.9609 9.73113 13.2953 10.0143 12.8045 10.5185C12.3137 11.0226 12.038 11.7064 12.038 12.4193V15.6452H17.272V12.4193Z" fill="#ffffff" />
+                        <path d="M27.5621 2.77189L15.0005 0.62132C14.7717 0.582607 14.5383 0.582607 14.3096 0.62132L1.74792 2.77189C1.25944 2.85583 0.815753 3.11494 0.495686 3.50317C0.175618 3.8914 -9.87436e-05 4.38361 -0.000244141 4.89235V19.9463C-0.000244141 23.9389 1.54379 27.7679 4.29218 30.5911C7.04058 33.4143 10.7682 35.0003 14.655 35.0003C18.5418 35.0003 22.2695 33.4143 25.0179 30.5911C27.7663 27.7679 29.3103 23.9389 29.3103 19.9463V4.89235C29.3101 4.38361 29.1344 3.8914 28.8144 3.50317C28.4943 3.11494 28.0506 2.85583 27.5621 2.77189ZM23.0295 24.2475C23.0295 24.8178 22.8089 25.3648 22.4163 25.7681C22.0236 26.1715 21.4911 26.398 20.9358 26.398H8.37419C7.81893 26.398 7.28642 26.1715 6.89379 25.7681C6.50116 25.3648 6.28058 24.8178 6.28058 24.2475V17.7958C6.28058 17.2254 6.50116 16.6784 6.89379 16.2751C7.28642 15.8718 7.81893 15.6452 8.37419 15.6452H8.8976V12.4193C8.8976 10.8508 9.50418 9.34657 10.5839 8.23746C11.6636 7.12836 13.1281 6.50527 14.655 6.50527C16.182 6.50527 17.6464 7.12836 18.7261 8.23746C19.8059 9.34657 20.4124 10.8508 20.4124 12.4193V15.6452H20.9358C21.4911 15.6452 22.0236 15.8718 22.4163 16.2751C22.8089 16.6784 23.0295 17.2254 23.0295 17.7958V24.2475Z" fill="#ffffff" />
+                    </svg>
+                </div>
+                <div class="col col-lg-4 py-3 pb-md-4 py-lg-0 px-0 px-md-2 text-white">
+                    <div class="h26 fw-800">Your privacy is our priority.</div>
+                    <div class="h28 fw-500">Your information will remain private &amp; secure</div>
+                </div>
+                <div class="col-12 col-lg-3 d-md-none">
+                    <button type="submit" class="btn btn-primary text-white form-control rounded-0 h22 fw-800">
+                        Submit
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
 <?php include __DIR__ . '/footer.php'; ?>
