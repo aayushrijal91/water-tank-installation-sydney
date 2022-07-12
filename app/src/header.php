@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="./assets/css/main.css?v=0.2">
 
 	<!-- Recaptcha Here -->
-	<!-- <script src="https://www.google.com/recaptcha/api.js?render=<?= $recaptcha_client_secret ?>"></script>
+	<script src="https://www.google.com/recaptcha/api.js?render=<?= $recaptcha_client_secret ?>"></script>
 	<script>
 		grecaptcha.ready(function() {
 			grecaptcha.execute('<?= $recaptcha_client_secret ?>', {
@@ -19,7 +19,7 @@
 				document.getElementById('recaptchaResponse').value = token;
 			});
 		});
-	</script> -->
+	</script>
 </head>
 
 <body>
@@ -28,8 +28,8 @@
 			<div class="container">
 				<div class="row justify-content-center justify-content-lg-between align-items-center">
 					<div class="col-9 col-md-7 col-lg-4 col-xxl-auto pb-4 pb-md-5 pb-lg-0">
-						<a href="./">
-							<?= renderImg("logo.png", "logo") ?>
+						<a href="./" class="hero-logo">
+							<?= renderImg("logo.gif", "logo") ?> <span>Paul's</span> Tank Warehouse
 						</a>
 					</div>
 					<div class="col-auto">

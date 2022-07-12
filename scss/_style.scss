@@ -10,6 +10,20 @@ header {
             padding: 24px 0;
         }
 
+        .hero-logo {
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 43.04px;
+            letter-spacing: -0.04em;
+            color: $black;
+            line-height: 1;
+            font-family: $font-opensans;
+
+            span {
+                font-weight: 900;
+            }
+        }
+
         .btn {
             height: 90px;
             display: flex;
@@ -62,7 +76,7 @@ header {
                     @include media-breakpoint-down(xxl) {
                         font-size: 1.5rem;
                     }
-                    
+
                     @include media-breakpoint-down(xl) {
                         font-size: 1.125rem;
                     }
@@ -237,6 +251,35 @@ header {
 }
 
 section.services {
+    .highlight-card {
+        background: imgUrl("active-eclipse.png") left top, linear-gradient(90deg, $secondary 37.53%, $primary 102.6%);
+        box-shadow:0px 43.29px 50px rgba(0, 0, 0, 0.25);
+        border-radius: 21px;
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 24px;
+
+        @include media-breakpoint-up(md) {
+            border-radius: 38.8414px;
+            height: 602.26px;
+            padding: 59px;
+        }
+
+        @include media-breakpoint-up(lg) {
+            padding: 59px 24px;
+        }
+
+        @include media-breakpoint-up(xxl) {
+            padding: 59px 50px;
+        }
+
+        .max-width {
+            max-width: 454px;
+        }
+    }
+
     .services-slider {
         @include media-breakpoint-up(md) {
             .slick-list {
@@ -255,98 +298,69 @@ section.services {
                 margin: 0 37px 100px 0;
             }
 
-            .pre-text {
-                background: $white;
-                border-radius: 21px;
-                min-height: 342px;
+            background: $white;
+            border-radius: 21px;
+            min-height: 342px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 77px 31px 59px;
+            transition: 0.5s all ease;
+            align-items: center;
+            text-align: center;
+
+            @include media-breakpoint-up(md) {
+                border-radius: 46.6789px;
+                min-height: 511px;
+            }
+
+            .pricing {
                 display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                padding: 77px 31px 59px;
-                transition: 0.5s all ease;
-                align-items: center;
-                text-align: center;
+                justify-content: start;
+                align-items: start;
 
-                @include media-breakpoint-up(md) {
-                    border-radius: 46.6789px;
-                    min-height: 511px;
+                .from {
+                    color: $white;
+                    background: $secondary;
+                    padding: 6px 13px;
+                    font-size: 0.9375rem; // 15px
+
+                    @include media-breakpoint-down(sm) {
+                        font-size: 0.675rem; // 14px
+                    }
                 }
 
-                .pricing {
-                    display: flex;
-                    justify-content: start;
-                    align-items: start;
+                .price {
+                    font-weight: 900;
+                    line-height: 0.8;
+                    padding-left: 13px;
+                    font-size: 5.638125rem; // 90.21px
 
-                    .from {
-                        color: $white;
-                        background: $secondary;
-                        padding: 6px 13px;
-                        font-size: 0.9375rem; // 15px
-
-                        @include media-breakpoint-down(sm) {
-                            font-size: 0.675rem; // 14px
-                        }
+                    @include media-breakpoint-down(xxl) {
+                        font-size: 4rem;
                     }
 
-                    .price {
-                        font-weight: 900;
-                        line-height: 0.8;
-                        padding-left: 13px;
-                        font-size: 5.638125rem; // 90.21px
-                        
-                        @include media-breakpoint-down(xxl) {
-                            font-size: 4rem;
-                        }
+                    @include media-breakpoint-down(md) {
+                        font-size: 3rem;
+                    }
 
-                        @include media-breakpoint-down(md) {
-                            font-size: 3rem;
-                        }
-
-                        @include media-breakpoint-down(sm) {
-                            font-size: 3rem;
-                        }
+                    @include media-breakpoint-down(sm) {
+                        font-size: 3rem;
                     }
                 }
             }
 
-            .active-text {
-                background: imgUrl("active-eclipse.png") left top,
-                    linear-gradient(90deg, $secondary 37.53%, $primary 102.6%);
-                border-radius: 21px;
-                display: none;
-                color: $white;
-                padding: 24px;
+            // &.slick-current {
+            //     .pre-text {
+            //         display: none;
+            //     }
 
-                @include media-breakpoint-up(md) {
-                    border-radius: 38.8414px;
-                    height: 602.26px;
-                    padding: 59px;
-                }
-
-                @include media-breakpoint-up(lg) {
-                    padding: 59px 24px;
-                }
-
-                @include media-breakpoint-up(xxl) {
-                    padding: 59px;
-                }
-
-                .max-width {
-                    max-width: 454px;
-                }
-            }
-
-            &.slick-current {
-                .pre-text {
-                    display: none;
-                }
-
-                .active-text {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                }
-            }
+            //     .active-text {
+            //         display: flex;
+            //         flex-direction: column;
+            //         justify-content: center;
+            //     }
+            // }
         }
     }
 }

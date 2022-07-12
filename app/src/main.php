@@ -8,7 +8,7 @@ include __DIR__ . '/header.php';
         <div class="row g-xl-0 justify-content-end">
             <div class="col-12 col-xxl-11">
                 <div class="row g-0">
-                    <div class="col-xl-4 pe-xxl-5 py-5 py-md-6">
+                    <div class="col-md-6 col-xl-4 pe-xxl-4 py-5 py-md-6">
                         <div class="h7 fw-800 line-height-4">Give fluoridated chlorinated water the flick &amp; <span class="text-secondary">turn rain into cash!</span></div>
                         <div class="h19 text-dark-grey line-height-3 pt-4 pb-2">Rainwater harvesting systems for your home, made easy.</div>
                         <a href="#form" class="btn btn-block text-secondary px-0 pt-4 pt-lg-5 h19 fw-700">
@@ -17,85 +17,93 @@ include __DIR__ . '/header.php';
                             </svg>
                         </a>
                     </div>
-                    <div class="col-xl-8">
+                    <div class="col-md-6 col-xl-4 px-4">
+                        <div class="highlight-card">
+                            <div class="pb-2"><?= renderImg("save-money.png", "icons") ?></div>
+                            <div class="h11 fw-800 line-height-4 pt-4 max-width">Reduce your Water Bills!</div>
+                            <div class="h18 max-width py-4">Time to start storing and using that water for your benefit. Get rainwater tank systems for off the grid living.</div>
+                            <div class="d-flex pt-2">
+                                <a href="#form" class="btn btn-block text-white px-0 h18 fw-700">
+                                    <span class="pe-3">Scroll to See</span> <svg width="30" height="14" viewBox="0 0 30 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M28.7431 6.29768L23.0817 0.636262C22.7428 0.297492 22.2332 0.196167 21.7905 0.379522C21.3478 0.562876 21.0591 0.994815 21.059 1.47398V5.06183C21.059 5.22543 20.9264 5.35806 20.7628 5.35806H2.43017C1.44857 5.35806 0.652832 6.1538 0.652832 7.13539C0.652832 8.11699 1.44857 8.91273 2.43017 8.91273H20.7628C20.9264 8.91273 21.059 9.04535 21.059 9.20895V12.7968C21.0591 13.276 21.3478 13.7079 21.7905 13.8913C22.2332 14.0746 22.7428 13.9733 23.0817 13.6345L28.7431 7.97311C29.2056 7.51041 29.2056 6.76038 28.7431 6.29768Z" fill="currentColor" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 pt-5 pt-xl-0">
                         <div class="services-slider">
                             <div class="service-card">
-                                <div class="pre-text">
-                                    <div class="h10 fw-600 line-height-5"><span class="fw-900">Granny Flat</span> Water<br> Tanks Installed</div>
-                                    <div class="pricing">
-                                        <div class="from">From</div>
-                                        <div class="price">$990</div>
-                                    </div>
-                                    <a href="#form" class="btn btn-block text-secondary px-0 h12 fw-800">
-                                        <span class="pe-3">Get Deal</span> <svg width="30" height="14" viewBox="0 0 30 14" fill="#0A3DE2" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M28.7431 6.29768L23.0817 0.636262C22.7428 0.297492 22.2332 0.196167 21.7905 0.379522C21.3478 0.562876 21.0591 0.994815 21.059 1.47398V5.06183C21.059 5.22543 20.9264 5.35806 20.7628 5.35806H2.43017C1.44857 5.35806 0.652832 6.1538 0.652832 7.13539C0.652832 8.11699 1.44857 8.91273 2.43017 8.91273H20.7628C20.9264 8.91273 21.059 9.04535 21.059 9.20895V12.7968C21.0591 13.276 21.3478 13.7079 21.7905 13.8913C22.2332 14.0746 22.7428 13.9733 23.0817 13.6345L28.7431 7.97311C29.2056 7.51041 29.2056 6.76038 28.7431 6.29768Z" fill="#0A3DE2" />
-                                        </svg>
-                                    </a>
+                                <div class="h10 fw-600 line-height-5"><span class="fw-900">Granny Flat</span> Water<br> Tanks Installed</div>
+                                <div class="pricing">
+                                    <div class="from">From</div>
+                                    <div class="price">$990</div>
                                 </div>
-                                <div class="active-text">
-                                    <div class="pb-2"><?= renderImg("save-money.png", "icons") ?></div>
-                                    <div class="h11 fw-800 line-height-4 pt-4 max-width">Reduce your Water Bills!</div>
-                                    <div class="h18 max-width py-4">Time to start storing and using that water for your benefit. Get rainwater tank systems for off the grid living.</div>
-                                    <div class="d-flex pt-2">
-                                        <a href="#form" class="btn btn-block text-white px-0 h18 fw-700">
-                                            <span class="pe-3">Scroll to See</span> <svg width="30" height="14" viewBox="0 0 30 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M28.7431 6.29768L23.0817 0.636262C22.7428 0.297492 22.2332 0.196167 21.7905 0.379522C21.3478 0.562876 21.0591 0.994815 21.059 1.47398V5.06183C21.059 5.22543 20.9264 5.35806 20.7628 5.35806H2.43017C1.44857 5.35806 0.652832 6.1538 0.652832 7.13539C0.652832 8.11699 1.44857 8.91273 2.43017 8.91273H20.7628C20.9264 8.91273 21.059 9.04535 21.059 9.20895V12.7968C21.0591 13.276 21.3478 13.7079 21.7905 13.8913C22.2332 14.0746 22.7428 13.9733 23.0817 13.6345L28.7431 7.97311C29.2056 7.51041 29.2056 6.76038 28.7431 6.29768Z" fill="currentColor" />
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
+                                <a href="#form" class="btn btn-block text-secondary px-0 h12 fw-800">
+                                    <span class="pe-3">Get Deal</span> <svg width="30" height="14" viewBox="0 0 30 14" fill="#0A3DE2" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M28.7431 6.29768L23.0817 0.636262C22.7428 0.297492 22.2332 0.196167 21.7905 0.379522C21.3478 0.562876 21.0591 0.994815 21.059 1.47398V5.06183C21.059 5.22543 20.9264 5.35806 20.7628 5.35806H2.43017C1.44857 5.35806 0.652832 6.1538 0.652832 7.13539C0.652832 8.11699 1.44857 8.91273 2.43017 8.91273H20.7628C20.9264 8.91273 21.059 9.04535 21.059 9.20895V12.7968C21.0591 13.276 21.3478 13.7079 21.7905 13.8913C22.2332 14.0746 22.7428 13.9733 23.0817 13.6345L28.7431 7.97311C29.2056 7.51041 29.2056 6.76038 28.7431 6.29768Z" fill="#0A3DE2" />
+                                    </svg>
+                                </a>
                             </div>
                             <div class="service-card">
-                                <div class="pre-text">
-                                    <div class="h10 fw-600 line-height-5"><span class="fw-900">Single Storey</span> Water<br> Tanks Installed</div>
-                                    <div class="pricing">
-                                        <div class="from">From</div>
-                                        <div class="price">$1090</div>
-                                    </div>
-                                    <a href="#form" class="btn btn-block text-secondary px-0 h12 fw-800">
-                                        <span class="pe-3">Get Deal</span> <svg width="30" height="14" viewBox="0 0 30 14" fill="#0A3DE2" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M28.7431 6.29768L23.0817 0.636262C22.7428 0.297492 22.2332 0.196167 21.7905 0.379522C21.3478 0.562876 21.0591 0.994815 21.059 1.47398V5.06183C21.059 5.22543 20.9264 5.35806 20.7628 5.35806H2.43017C1.44857 5.35806 0.652832 6.1538 0.652832 7.13539C0.652832 8.11699 1.44857 8.91273 2.43017 8.91273H20.7628C20.9264 8.91273 21.059 9.04535 21.059 9.20895V12.7968C21.0591 13.276 21.3478 13.7079 21.7905 13.8913C22.2332 14.0746 22.7428 13.9733 23.0817 13.6345L28.7431 7.97311C29.2056 7.51041 29.2056 6.76038 28.7431 6.29768Z" fill="#0A3DE2" />
-                                        </svg>
-                                    </a>
+                                <div class="h10 fw-600 line-height-5"><span class="fw-900">Double Storey</span> Water<br> Tanks Installed</div>
+                                <div class="pricing">
+                                    <div class="from">From</div>
+                                    <div class="price">$1190</div>
                                 </div>
-                                <div class="active-text">
-                                    <div class="pb-2"><?= renderImg("save-money.png", "icons") ?></div>
-                                    <div class="h11 fw-800 line-height-4 pt-4 max-width">Single Storey Water Tanks Installed </div>
-                                    <div class="h18 max-width py-4">Time to start storing and using that water for your benefit. Get rainwater tank systems for off the grid living.</div>
-                                    <div class="d-flex pt-2">
-                                        <a href="#form" class="btn btn-block text-white px-0 h18 fw-700">
-                                            <span class="pe-3">Scroll to See</span> <svg width="30" height="14" viewBox="0 0 30 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M28.7431 6.29768L23.0817 0.636262C22.7428 0.297492 22.2332 0.196167 21.7905 0.379522C21.3478 0.562876 21.0591 0.994815 21.059 1.47398V5.06183C21.059 5.22543 20.9264 5.35806 20.7628 5.35806H2.43017C1.44857 5.35806 0.652832 6.1538 0.652832 7.13539C0.652832 8.11699 1.44857 8.91273 2.43017 8.91273H20.7628C20.9264 8.91273 21.059 9.04535 21.059 9.20895V12.7968C21.0591 13.276 21.3478 13.7079 21.7905 13.8913C22.2332 14.0746 22.7428 13.9733 23.0817 13.6345L28.7431 7.97311C29.2056 7.51041 29.2056 6.76038 28.7431 6.29768Z" fill="currentColor" />
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
+                                <a href="#form" class="btn btn-block text-secondary px-0 h12 fw-800">
+                                    <span class="pe-3">Get Deal</span> <svg width="30" height="14" viewBox="0 0 30 14" fill="#0A3DE2" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M28.7431 6.29768L23.0817 0.636262C22.7428 0.297492 22.2332 0.196167 21.7905 0.379522C21.3478 0.562876 21.0591 0.994815 21.059 1.47398V5.06183C21.059 5.22543 20.9264 5.35806 20.7628 5.35806H2.43017C1.44857 5.35806 0.652832 6.1538 0.652832 7.13539C0.652832 8.11699 1.44857 8.91273 2.43017 8.91273H20.7628C20.9264 8.91273 21.059 9.04535 21.059 9.20895V12.7968C21.0591 13.276 21.3478 13.7079 21.7905 13.8913C22.2332 14.0746 22.7428 13.9733 23.0817 13.6345L28.7431 7.97311C29.2056 7.51041 29.2056 6.76038 28.7431 6.29768Z" fill="#0A3DE2" />
+                                    </svg>
+                                </a>
                             </div>
                             <div class="service-card">
-                                <div class="pre-text">
-                                    <div class="h10 fw-600 line-height-5"><span class="fw-900">Granny Flat</span> Water<br>Tanks Installed</div>
-                                    <div class="pricing">
-                                        <div class="from">From</div>
-                                        <div class="price">$990</div>
-                                    </div>
-                                    <a href="#form" class="btn btn-block text-secondary px-0 h12 fw-800">
-                                        <span class="pe-3">Get Deal</span> <svg width="30" height="14" viewBox="0 0 30 14" fill="#0A3DE2" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M28.7431 6.29768L23.0817 0.636262C22.7428 0.297492 22.2332 0.196167 21.7905 0.379522C21.3478 0.562876 21.0591 0.994815 21.059 1.47398V5.06183C21.059 5.22543 20.9264 5.35806 20.7628 5.35806H2.43017C1.44857 5.35806 0.652832 6.1538 0.652832 7.13539C0.652832 8.11699 1.44857 8.91273 2.43017 8.91273H20.7628C20.9264 8.91273 21.059 9.04535 21.059 9.20895V12.7968C21.0591 13.276 21.3478 13.7079 21.7905 13.8913C22.2332 14.0746 22.7428 13.9733 23.0817 13.6345L28.7431 7.97311C29.2056 7.51041 29.2056 6.76038 28.7431 6.29768Z" fill="#0A3DE2" />
-                                        </svg>
-                                    </a>
+                                <div class="h10 fw-600 line-height-5"><span class="fw-900">Tight Fit</span> Water<br> Tanks Installed</div>
+                                <div class="pricing">
+                                    <div class="from">From</div>
+                                    <div class="price">$1050</div>
                                 </div>
-                                <div class="active-text">
-                                    <div class="pb-2"><?= renderImg("save-money.png", "icons") ?></div>
-                                    <div class="h11 fw-800 line-height-4 pt-4 max-width">Granny Flat Water Tanks Installed</div>
-                                    <div class="h18 max-width py-4">Time to start storing and using that water for your benefit. Get rainwater tank systems for off the grid living.</div>
-                                    <div class="d-flex pt-2">
-                                        <a href="#form" class="btn btn-block text-white px-0 h18 fw-700">
-                                            <span class="pe-3">Scroll to See</span> <svg width="30" height="14" viewBox="0 0 30 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M28.7431 6.29768L23.0817 0.636262C22.7428 0.297492 22.2332 0.196167 21.7905 0.379522C21.3478 0.562876 21.0591 0.994815 21.059 1.47398V5.06183C21.059 5.22543 20.9264 5.35806 20.7628 5.35806H2.43017C1.44857 5.35806 0.652832 6.1538 0.652832 7.13539C0.652832 8.11699 1.44857 8.91273 2.43017 8.91273H20.7628C20.9264 8.91273 21.059 9.04535 21.059 9.20895V12.7968C21.0591 13.276 21.3478 13.7079 21.7905 13.8913C22.2332 14.0746 22.7428 13.9733 23.0817 13.6345L28.7431 7.97311C29.2056 7.51041 29.2056 6.76038 28.7431 6.29768Z" fill="currentColor" />
-                                            </svg>
-                                        </a>
-                                    </div>
+                                <a href="#form" class="btn btn-block text-secondary px-0 h12 fw-800">
+                                    <span class="pe-3">Get Deal</span> <svg width="30" height="14" viewBox="0 0 30 14" fill="#0A3DE2" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M28.7431 6.29768L23.0817 0.636262C22.7428 0.297492 22.2332 0.196167 21.7905 0.379522C21.3478 0.562876 21.0591 0.994815 21.059 1.47398V5.06183C21.059 5.22543 20.9264 5.35806 20.7628 5.35806H2.43017C1.44857 5.35806 0.652832 6.1538 0.652832 7.13539C0.652832 8.11699 1.44857 8.91273 2.43017 8.91273H20.7628C20.9264 8.91273 21.059 9.04535 21.059 9.20895V12.7968C21.0591 13.276 21.3478 13.7079 21.7905 13.8913C22.2332 14.0746 22.7428 13.9733 23.0817 13.6345L28.7431 7.97311C29.2056 7.51041 29.2056 6.76038 28.7431 6.29768Z" fill="#0A3DE2" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="service-card">
+                                <div class="h10 fw-600 line-height-5"><span class="fw-900">Slimline </span> Water<br> Tanks Installed</div>
+                                <div class="pricing">
+                                    <div class="from">From</div>
+                                    <div class="price">$1050</div>
                                 </div>
+                                <a href="#form" class="btn btn-block text-secondary px-0 h12 fw-800">
+                                    <span class="pe-3">Get Deal</span> <svg width="30" height="14" viewBox="0 0 30 14" fill="#0A3DE2" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M28.7431 6.29768L23.0817 0.636262C22.7428 0.297492 22.2332 0.196167 21.7905 0.379522C21.3478 0.562876 21.0591 0.994815 21.059 1.47398V5.06183C21.059 5.22543 20.9264 5.35806 20.7628 5.35806H2.43017C1.44857 5.35806 0.652832 6.1538 0.652832 7.13539C0.652832 8.11699 1.44857 8.91273 2.43017 8.91273H20.7628C20.9264 8.91273 21.059 9.04535 21.059 9.20895V12.7968C21.0591 13.276 21.3478 13.7079 21.7905 13.8913C22.2332 14.0746 22.7428 13.9733 23.0817 13.6345L28.7431 7.97311C29.2056 7.51041 29.2056 6.76038 28.7431 6.29768Z" fill="#0A3DE2" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="service-card">
+                                <div class="h10 fw-600 line-height-5"><span class="fw-900">Acerage </span> Water<br> Tanks Installed</div>
+                                <div class="pricing">
+                                    <div class="from">From</div>
+                                    <div class="price">$1890</div>
+                                </div>
+                                <a href="#form" class="btn btn-block text-secondary px-0 h12 fw-800">
+                                    <span class="pe-3">Get Deal</span> <svg width="30" height="14" viewBox="0 0 30 14" fill="#0A3DE2" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M28.7431 6.29768L23.0817 0.636262C22.7428 0.297492 22.2332 0.196167 21.7905 0.379522C21.3478 0.562876 21.0591 0.994815 21.059 1.47398V5.06183C21.059 5.22543 20.9264 5.35806 20.7628 5.35806H2.43017C1.44857 5.35806 0.652832 6.1538 0.652832 7.13539C0.652832 8.11699 1.44857 8.91273 2.43017 8.91273H20.7628C20.9264 8.91273 21.059 9.04535 21.059 9.20895V12.7968C21.0591 13.276 21.3478 13.7079 21.7905 13.8913C22.2332 14.0746 22.7428 13.9733 23.0817 13.6345L28.7431 7.97311C29.2056 7.51041 29.2056 6.76038 28.7431 6.29768Z" fill="#0A3DE2" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="service-card">
+                                <div class="h10 fw-600 line-height-5"><span class="fw-900">The Hulk </span> Water<br> Tanks Installed</div>
+                                <div class="pricing">
+                                    <div class="from">From</div>
+                                    <div class="price">$1990</div>
+                                </div>
+                                <a href="#form" class="btn btn-block text-secondary px-0 h12 fw-800">
+                                    <span class="pe-3">Get Deal</span> <svg width="30" height="14" viewBox="0 0 30 14" fill="#0A3DE2" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M28.7431 6.29768L23.0817 0.636262C22.7428 0.297492 22.2332 0.196167 21.7905 0.379522C21.3478 0.562876 21.0591 0.994815 21.059 1.47398V5.06183C21.059 5.22543 20.9264 5.35806 20.7628 5.35806H2.43017C1.44857 5.35806 0.652832 6.1538 0.652832 7.13539C0.652832 8.11699 1.44857 8.91273 2.43017 8.91273H20.7628C20.9264 8.91273 21.059 9.04535 21.059 9.20895V12.7968C21.0591 13.276 21.3478 13.7079 21.7905 13.8913C22.2332 14.0746 22.7428 13.9733 23.0817 13.6345L28.7431 7.97311C29.2056 7.51041 29.2056 6.76038 28.7431 6.29768Z" fill="#0A3DE2" />
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -119,7 +127,7 @@ include __DIR__ . '/header.php';
                                     <div class="text-primary h17 fw-700 line-height-4">Under Deck Tank</div>
                                     <div class="text-white h16 fw-900 py-2">from $99</div>
                                 </div>
-                                <a class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
+                                <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
                             </div>
                         </div>
                     </div>
@@ -131,7 +139,7 @@ include __DIR__ . '/header.php';
                                     <div class="text-primary h17 fw-700 line-height-4">Slim Tank</div>
                                     <div class="text-white h16 fw-900 py-2">from $99</div>
                                 </div>
-                                <a class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
+                                <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
                             </div>
                         </div>
                     </div>
@@ -143,7 +151,7 @@ include __DIR__ . '/header.php';
                                     <div class="text-primary h17 fw-700 line-height-4">Submersible Pump &amp; Accessories</div>
                                     <div class="text-white h16 fw-900 py-2">from $99</div>
                                 </div>
-                                <a class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
+                                <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
                             </div>
                         </div>
                     </div>
@@ -155,7 +163,7 @@ include __DIR__ . '/header.php';
                                     <div class="text-primary h17 fw-700 line-height-4">Garden Pump</div>
                                     <div class="text-white h16 fw-900 py-2">from $99</div>
                                 </div>
-                                <a class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
+                                <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
                             </div>
                         </div>
                     </div>
@@ -167,7 +175,7 @@ include __DIR__ . '/header.php';
                                     <div class="text-primary h17 fw-700 line-height-4">External Diverter Pump</div>
                                     <div class="text-white h16 fw-900 py-2">from $99</div>
                                 </div>
-                                <a class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
+                                <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
                             </div>
                         </div>
                     </div>
@@ -179,7 +187,7 @@ include __DIR__ . '/header.php';
                                     <div class="text-primary h17 fw-700 line-height-4">Concrete Tank</div>
                                     <div class="text-white h16 fw-900 py-2">from $99</div>
                                 </div>
-                                <a class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
+                                <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
                             </div>
                         </div>
                     </div>
@@ -319,7 +327,7 @@ include __DIR__ . '/header.php';
                 <div class="col-12 col-lg-11">
                     <div class="row align-items-center">
                         <div class="col-lg-6 pe-xl-5">
-                            <div class="h3 fw-700 line-height-4 pb-4">Why Choose Pauls Tank Warehouse?</div>
+                            <div class="h3 fw-700 line-height-4 pb-4">What is BASIX in New South Wales?</div>
                             <p class="line-height-2 h21 pt-md-3 text-dark-grey">
                                 The Building Sustainability Index (BASIX), is an index that was rolled out across New South Wales in 2004. The aim of this law was to make sure all residential houses and dwellings are more sustainable by including alternative water supplies such as rainwater harvesting or recycled wastewater. <sapn class="fw-700">In the long term incentivising for not using mains supply which can be harmful to our environment.</span>
                             </p>
@@ -514,10 +522,13 @@ include __DIR__ . '/header.php';
                     <label for="service">Service Required</label>
                     <select name="service" class="form-control rounded-0 bg-white" required>
                         <option disabled selected class="disabled-service">Select a Service Below</option>
-                        <option>Pump Not Working</option>
-                        <option>Tank is Leaking</option>
-                        <option>Tank Replacement</option>
-                        <option>I am Not Sure</option>
+                        <option>Rainwater harvesting system installation</option>
+                        <option>Off grid water supply management</option>
+                        <option>Stormwater management</option>
+                        <option>Irrigation system installation</option>
+                        <option>Tank system upgrade</option>
+                        <option>System replacement</option>
+                        <option>Pump, filter and accessory upgrade and replacement</option>
                     </select>
                 </div>
                 <div class="col-12 col-md-6 pr-md-4">
@@ -528,9 +539,12 @@ include __DIR__ . '/header.php';
                     <label for="propertyType">Property Type</label>
                     <select name="propertyType" class="form-control rounded-0 bg-white" id="propertyType" required>
                         <option disabled selected class="disabled-service">Select Your Property Type Below</option>
-                        <option>1-5 Years</option>
-                        <option>5-10 Years</option>
-                        <option>I am Not Sure</option>
+                        <option>Granny Flat Water Tanks</option>
+                        <option>Double Storey Water Tanks</option>
+                        <option>Tight Fit Water Tanks</option>
+                        <option>Slimline Water Tanks</option>
+                        <option>Acerage Water Tanks</option>
+                        <option>The Hulk Water Tank</option>
                     </select>
                 </div>
                 <div class="col-12">

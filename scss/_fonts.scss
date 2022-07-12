@@ -346,11 +346,13 @@ h7,
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 $font-inter: "Inter", sans-serif;
 $font-articulat: "Articulat", sans-serif;
 $font-roboto: "Roboto", sans-serif;
 $font-proxima-nova: "Proxima Nova", sans-serif;
+$font-opensans: 'Open Sans', sans-serif;
 
 $font-body: $font-inter;
 
@@ -359,6 +361,7 @@ $font-families: (
     "articulat": "Articulat",
     "roboto": "Roboto",
     "proxima-nova": "Proxima Nova",
+    "opensans": "Open Sans",
 );
 
 @each $name, $font-family in $font-families {
