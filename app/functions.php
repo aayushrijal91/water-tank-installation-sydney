@@ -5,7 +5,7 @@ $site = "Paul's Tank Warehouse";
 $phone_number = "0410 567 446";
 $admin_email = 'arijal@aiims.com.au'; // 'info@transformwater.com.au';
 $bcc_email = "";
-$no_reply_email = 'no-reply@transformwater.com.au';
+$no_reply_email = 'no-reply@paulstankswarehouse.com.au';
 $recaptcha_client_secret = $client_secret;
 $recaptcha_server_secret = $server_secret;
 
