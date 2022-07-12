@@ -43,7 +43,7 @@ function watchTask() {
     });
     watch("./scss/**/*.scss", style);
     watch('./scripts/**/*.js', scripts);
-    // watch("./images/**/*", imgSquash);
+    watch("./images/**/*", imgSquash);
     watch('./app/**/*.php').on('change', browserSync.reload);
     watch("./app/assets/js/**/*.js").on('change', browserSync.reload);
 }
