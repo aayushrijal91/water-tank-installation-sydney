@@ -44,6 +44,35 @@ $(() => {
         }]
     });
 
+    $(".products-slider").slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        arrows: false,
+        autoplay: true,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 4,
+                    variableWidth: false,
+                }
+            },
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 3,
+                    variableWidth: false,
+                }
+            },
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 1,
+                    variableWidth: false,
+                }
+            }]
+    });
+
     $(".testimonials-slider").slick({
         slidesToShow: 4,
         slidesToScroll: 1,

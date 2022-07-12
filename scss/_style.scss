@@ -349,18 +349,6 @@ section.services {
                     }
                 }
             }
-
-            // &.slick-current {
-            //     .pre-text {
-            //         display: none;
-            //     }
-
-            //     .active-text {
-            //         display: flex;
-            //         flex-direction: column;
-            //         justify-content: center;
-            //     }
-            // }
         }
     }
 }
@@ -373,6 +361,8 @@ section.products {
     }
 
     .product-card {
+        margin: 0 10px;
+        
         img {
             width: 100%;
         }

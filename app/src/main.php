@@ -118,77 +118,85 @@ include __DIR__ . '/header.php';
         <div class="row justify-content-center">
             <div class="col-12 col-xxl-11">
                 <div class="text-center h3 fw-800 pb-5">Want to see some of our products?</div>
-                <div class="row g-3 pt-lg-6">
-                    <div class="col-6 col-lg-4 col-xl-2">
-                        <div class="product-card">
-                            <?= renderImg("under-deck-tank.png", "lib") ?>
-                            <div class="info">
-                                <div>
-                                    <div class="text-primary h17 fw-700 line-height-4">Under Deck Tank</div>
-                                    <div class="text-white h16 fw-900 py-2">from $99</div>
-                                </div>
-                                <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
+                <div class="products-slider">
+                    <div class="product-card">
+                        <?= renderImg("under-deck-tank.png", "lib") ?>
+                        <div class="info">
+                            <div>
+                                <div class="text-primary h17 fw-700 line-height-4">Under Deck Tank</div>
+                                <div class="text-white h16 fw-900 py-2">from $99</div>
                             </div>
+                            <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-4 col-xl-2">
-                        <div class="product-card">
-                            <?= renderImg("slim-tank.png", "lib") ?>
-                            <div class="info">
-                                <div>
-                                    <div class="text-primary h17 fw-700 line-height-4">Slim Tank</div>
-                                    <div class="text-white h16 fw-900 py-2">from $99</div>
-                                </div>
-                                <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
+                    <div class="product-card">
+                        <?= renderImg("slim-tank.png", "lib") ?>
+                        <div class="info">
+                            <div>
+                                <div class="text-primary h17 fw-700 line-height-4">Slim Tank</div>
+                                <div class="text-white h16 fw-900 py-2">from $99</div>
                             </div>
+                            <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-4 col-xl-2">
-                        <div class="product-card">
-                            <?= renderImg("submersible.png", "lib") ?>
-                            <div class="info">
-                                <div>
-                                    <div class="text-primary h17 fw-700 line-height-4">Submersible Pump &amp; Accessories</div>
-                                    <div class="text-white h16 fw-900 py-2">from $99</div>
-                                </div>
-                                <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
+                    <div class="product-card">
+                        <?= renderImg("submersible.png", "lib") ?>
+                        <div class="info">
+                            <div>
+                                <div class="text-primary h17 fw-700 line-height-4">Submersible Pump &amp; Accessories</div>
+                                <div class="text-white h16 fw-900 py-2">from $99</div>
                             </div>
+                            <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-4 col-xl-2">
-                        <div class="product-card">
-                            <?= renderImg("garden-pump.png", "lib") ?>
-                            <div class="info">
-                                <div>
-                                    <div class="text-primary h17 fw-700 line-height-4">Garden Pump</div>
-                                    <div class="text-white h16 fw-900 py-2">from $99</div>
-                                </div>
-                                <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
+                    <div class="product-card">
+                        <?= renderImg("garden-pump.png", "lib") ?>
+                        <div class="info">
+                            <div>
+                                <div class="text-primary h17 fw-700 line-height-4">Garden Pump</div>
+                                <div class="text-white h16 fw-900 py-2">from $99</div>
                             </div>
+                            <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-4 col-xl-2">
-                        <div class="product-card">
-                            <?= renderImg("external-diverter.png", "lib") ?>
-                            <div class="info">
-                                <div>
-                                    <div class="text-primary h17 fw-700 line-height-4">External Diverter Pump</div>
-                                    <div class="text-white h16 fw-900 py-2">from $99</div>
-                                </div>
-                                <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
+                    <div class="product-card">
+                        <?= renderImg("external-diverter.png", "lib") ?>
+                        <div class="info">
+                            <div>
+                                <div class="text-primary h17 fw-700 line-height-4">External Diverter Pump</div>
+                                <div class="text-white h16 fw-900 py-2">from $99</div>
                             </div>
+                            <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-4 col-xl-2">
-                        <div class="product-card">
-                            <?= renderImg("concrete-tank.png", "lib") ?>
-                            <div class="info">
-                                <div>
-                                    <div class="text-primary h17 fw-700 line-height-4">Concrete Tank</div>
-                                    <div class="text-white h16 fw-900 py-2">from $99</div>
-                                </div>
-                                <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
+                    <div class="product-card">
+                        <?= renderImg("concrete-tank.png", "lib") ?>
+                        <div class="info">
+                            <div>
+                                <div class="text-primary h17 fw-700 line-height-4">Concrete Tank</div>
+                                <div class="text-white h16 fw-900 py-2">from $99</div>
                             </div>
+                            <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <?= renderImg("short-slim-tank.png", "lib") ?>
+                        <div class="info">
+                            <div>
+                                <div class="text-primary h17 fw-700 line-height-4">Short Slim Tank</div>
+                                <div class="text-white h16 fw-900 py-2">from $99</div>
+                            </div>
+                            <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <?= renderImg("round-tank.png", "lib") ?>
+                        <div class="info">
+                            <div>
+                                <div class="text-primary h17 fw-700 line-height-4">Round Tank</div>
+                                <div class="text-white h16 fw-900 py-2">from $99</div>
+                            </div>
+                            <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
                         </div>
                     </div>
                 </div>
@@ -539,12 +547,14 @@ include __DIR__ . '/header.php';
                     <label for="propertyType">Property Type</label>
                     <select name="propertyType" class="form-control rounded-0 bg-white" id="propertyType" required>
                         <option disabled selected class="disabled-service">Select Your Property Type Below</option>
-                        <option>Granny Flat Water Tanks</option>
-                        <option>Double Storey Water Tanks</option>
-                        <option>Tight Fit Water Tanks</option>
-                        <option>Slimline Water Tanks</option>
-                        <option>Acerage Water Tanks</option>
-                        <option>The Hulk Water Tank</option>
+                        <option>Under Deck Tank</option>
+                        <option>Slim Tank</option>
+                        <option>Submersible Pump &amp; Accessories</option>
+                        <option>Garden Pump</option>
+                        <option>External Diverter Pump</option>
+                        <option>Concrete Tank</option>
+                        <option>Short Slim Tank</option>
+                        <option>Round Tank</option>
                     </select>
                 </div>
                 <div class="col-12">
