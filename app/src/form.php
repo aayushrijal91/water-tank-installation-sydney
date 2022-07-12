@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
         $email = $_POST['email'];
         $service = $_POST['service'];
         $address = $_POST['address'];
-        $propertyType = $_POST['propertyType'];
+        $tankRequired = $_POST['tankRequired'];
         $comment = $_POST['comment'];
 
         $message = '<!DOCTYPE html>
@@ -68,8 +68,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
             '<td><b>' . strip_tags($address) . '</b></td>' .
             '</tr>' .
             '<tr>' .
-            '<td>Property Type</td>' .
-            '<td><b>' . strip_tags($propertyType) . '</b></td>' .
+            '<td>Tank Required</td>' .
+            '<td><b>' . strip_tags($tankRequired) . '</b></td>' .
             '</tr>' .
             '<tr>' .
             '<td>Comment</td>' .

@@ -312,8 +312,15 @@ include __DIR__ . '/header.php';
             <div class="row justify-content-center">
                 <div class="col-12 col-xl-11">
                     <div class="row align-items-center justify-content-between">
-                        <div class="col-7 col-md-5"><?= renderImg("grey-tank.png", "lib") ?></div>
-                        <div class="col-md-7 pt-4 pt-md-0">
+                        <div class="col-lg-5">
+                            <div class="tank-type-slider">
+                                <div><?= renderImg("slim-tank-slide.png", "lib") ?></div>
+                                <div><?= renderImg("short-slim-tank-slide.png", "lib") ?></div>
+                                <div><?= renderImg("round-tank-slide.png", "lib") ?></div>
+                                <div><?= renderImg("under-deck-tank-slide.png", "lib") ?></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 pt-4 pt-lg-0">
                             <div class="h3 fw-700 line-height-4">Why Choose Pauls Tank Warehouse?</div>
                             <div class="h13 fw-700 line-height-1 py-4 py-lg-5">The average person consumes 124,100 litres of water per year!</div>
                             <p class="line-height-2 h21">Water is fundamental to life and having an economical and accessible source is just as important. As veterans in the business, we understand whether you are replacing or installing a rainwater tank, you want to get it done right.</p>
@@ -544,9 +551,9 @@ include __DIR__ . '/header.php';
                     <input id="address" class="form-control border-1 rounded-0 bg-white" type="text" placeholder="Enter Your Address" name="address" required>
                 </div>
                 <div class="col-12 col-md-6 pl-md-4">
-                    <label for="propertyType">Property Type</label>
-                    <select name="propertyType" class="form-control rounded-0 bg-white" id="propertyType" required>
-                        <option disabled selected class="disabled-service">Select Your Property Type Below</option>
+                    <label for="tankRequired">Tank Required</label>
+                    <select name="tankRequired" class="form-control rounded-0 bg-white" id="tankRequired" required>
+                        <option disabled selected class="disabled-service">Select Your Tank Type Below</option>
                         <option>Under Deck Tank</option>
                         <option>Slim Tank</option>
                         <option>Submersible Pump &amp; Accessories</option>
