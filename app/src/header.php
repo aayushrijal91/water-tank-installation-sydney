@@ -27,7 +27,7 @@
 		<div class="header-top-bar">
 			<div class="container">
 				<div class="row justify-content-center justify-content-lg-between align-items-center">
-					<div class="col-9 col-md-7 col-lg-4 col-xxl-auto pb-4 pb-md-5 pb-lg-0">
+					<div class="col-auto pb-4 pb-md-5 pb-lg-0">
 						<a href="./" class="hero-logo">
 							<?= renderImg("logo.gif", "logo") ?> <span>Paul's</span> Tank Warehouse
 						</a>
