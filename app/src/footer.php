@@ -13,8 +13,8 @@
 						<div>2760</div>
 					</div>
 					<div><a href="tel:<?= $phone_number ?>" class="btn p-0 text-white line-height-1 h17 fw-600">Call <span class="fw-900"><?= $phone_number ?></span></a></div>
-					<div><a href="sms:<?= $phone_number ?>" class="btn p-0 text-white line-height-1 h17 fw-600">SMS <span class="fw-900"><?= $phone_number ?></span></a></div>
-					<div class="pt-4"><a href="mailto:info@transformwater.com.au" class="btn fw-900 h24 p-0 text-white">info@transformwater.com.au</a></div>
+					<div><a href="sms:<?= $sms_number ?>" class="btn p-0 text-white line-height-1 h17 fw-600">SMS <span class="fw-900"><?= $sms_number ?></span></a></div>
+					<div class="pt-4"><a href="mailto:<?= $admin_email ?>" class="btn fw-900 h24 p-0 text-white"><?= $admin_email ?></a></div>
 				</div>
 			</div>
 		</div>

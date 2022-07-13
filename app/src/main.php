@@ -124,7 +124,7 @@ include __DIR__ . '/header.php';
                         <div class="info">
                             <div>
                                 <div class="text-primary h17 fw-700 line-height-4">Under Deck Tank</div>
-                                <div class="text-white h16 fw-900 py-2">from $99</div>
+                                <div class="text-white h16 fw-900 py-2">from $700</div>
                             </div>
                             <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
                         </div>
@@ -134,7 +134,7 @@ include __DIR__ . '/header.php';
                         <div class="info">
                             <div>
                                 <div class="text-primary h17 fw-700 line-height-4">Slim Tank</div>
-                                <div class="text-white h16 fw-900 py-2">from $99</div>
+                                <div class="text-white h16 fw-900 py-2">from $680</div>
                             </div>
                             <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
                         </div>
@@ -144,7 +144,7 @@ include __DIR__ . '/header.php';
                         <div class="info">
                             <div>
                                 <div class="text-primary h17 fw-700 line-height-4">Submersible Pump &amp; Accessories</div>
-                                <div class="text-white h16 fw-900 py-2">from $99</div>
+                                <div class="text-white h16 fw-900 py-2">from $600</div>
                             </div>
                             <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
                         </div>
@@ -154,7 +154,7 @@ include __DIR__ . '/header.php';
                         <div class="info">
                             <div>
                                 <div class="text-primary h17 fw-700 line-height-4">Garden Pump</div>
-                                <div class="text-white h16 fw-900 py-2">from $99</div>
+                                <div class="text-white h16 fw-900 py-2">from $500</div>
                             </div>
                             <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
                         </div>
@@ -164,7 +164,7 @@ include __DIR__ . '/header.php';
                         <div class="info">
                             <div>
                                 <div class="text-primary h17 fw-700 line-height-4">External Diverter Pump</div>
-                                <div class="text-white h16 fw-900 py-2">from $99</div>
+                                <div class="text-white h16 fw-900 py-2">from $890</div>
                             </div>
                             <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
                         </div>
@@ -174,7 +174,7 @@ include __DIR__ . '/header.php';
                         <div class="info">
                             <div>
                                 <div class="text-primary h17 fw-700 line-height-4">Concrete Tank</div>
-                                <div class="text-white h16 fw-900 py-2">from $99</div>
+                                <div class="text-white h16 fw-900 py-2">from $5000</div>
                             </div>
                             <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
                         </div>
@@ -184,7 +184,7 @@ include __DIR__ . '/header.php';
                         <div class="info">
                             <div>
                                 <div class="text-primary h17 fw-700 line-height-4">Short Slim Tank</div>
-                                <div class="text-white h16 fw-900 py-2">from $99</div>
+                                <div class="text-white h16 fw-900 py-2">from $580</div>
                             </div>
                             <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
                         </div>
@@ -194,7 +194,7 @@ include __DIR__ . '/header.php';
                         <div class="info">
                             <div>
                                 <div class="text-primary h17 fw-700 line-height-4">Round Tank</div>
-                                <div class="text-white h16 fw-900 py-2">from $99</div>
+                                <div class="text-white h16 fw-900 py-2">from $600</div>
                             </div>
                             <a href="#form" class="btn btn-block text-light-grey fw-500 h27">Find Out More</a>
                         </div>
@@ -217,7 +217,7 @@ include __DIR__ . '/header.php';
                 </div>
                 <div class="row justify-content-end pt-4 pt-md-5 pt-lg-6">
                     <div class="col-xl-6">
-                        <p class="text-secondary fw-700 h18 pb-2 pb-lg-4">Fewer than 26% of households in Australia use a rainwater tank.</p>
+                        <p class="text-secondary fw-700 h18 pb-2 pb-lg-4">More than 100,000 homes in NSW use a rainwater tank.</p>
                         <p class="h24 line-height-2">Aussie Water Savers produces high quality, value for money, rainwater tank systems for construction professionals completing both residential and commercial projects.</p>
                         <p class="h24 line-height-2">We have been providing our Rainwater Tank services and products business for over 35+ years. Helping households save over 1 million litres per year which equates to significant savings per household. Our experienced technicians can help you save the environment and on expenses, providing expertise whether it is your home or business.</p>
                     </div>

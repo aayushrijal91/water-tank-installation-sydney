@@ -3,6 +3,7 @@ include __DIR__ . '/env.php';
 
 $site = "Paul's Tank Warehouse";
 $phone_number = "0410 567 446";
+$sms_number = "0468 849 529";
 $admin_email = 'arijal@aiims.com.au'; // 'info@transformwater.com.au';
 $bcc_email = "";
 $no_reply_email = 'no-reply@paulstankswarehouse.com.au';
